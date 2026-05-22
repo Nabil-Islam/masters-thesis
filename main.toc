@@ -1,0 +1,12 @@
+\contentsline {section}{\numberline {1}Literature Review}{3}{section.1}%
+\contentsline {subsection}{\numberline {1.1}The Treatment of Tuberculosis and the Critical Role of Detecting Drug Resistance}{3}{subsection.1.1}%
+\contentsline {subsubsection}{\numberline {1.1.1}Treatment Regimens for Drug-Susceptible Tuberculosis}{3}{subsubsection.1.1.1}%
+\contentsline {subsubsection}{\numberline {1.1.2}Treatment Regimens for Drug-Resistant Tuberculosis}{4}{subsubsection.1.1.2}%
+\contentsline {subsection}{\numberline {1.2}Drug Susceptibility Testing for Tuberculosis}{5}{subsection.1.2}%
+\contentsline {subsubsection}{\numberline {1.2.1}Phenotypic Drug Susceptibility Testing (pDST)}{6}{subsubsection.1.2.1}%
+\contentsline {subsubsection}{\numberline {1.2.2}Genotypic Drug Susceptibility Testing}{7}{subsubsection.1.2.2}%
+\contentsline {subsubsection}{\numberline {1.2.3}Whole-Genome Sequencing in Drug Susceptibility Testing (WGS-DST)}{7}{subsubsection.1.2.3}%
+\contentsline {subsection}{\numberline {1.3}Investigating Mutations in Masked Genomic Regions}{9}{subsection.1.3}%
+\contentsline {subsubsection}{\numberline {1.3.1}Masking Practices in Mtb Genomic Analysis}{9}{subsubsection.1.3.1}%
+\contentsline {subsubsection}{\numberline {1.3.2}The \textit {pe/ppe} Gene Family and Drug Resistance}{9}{subsubsection.1.3.2}%
+\contentsline {subsection}{\numberline {1.4}Re-evaluating the Masking Approach}{10}{subsection.1.4}%

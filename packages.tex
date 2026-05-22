@@ -1,0 +1,65 @@
+% Packages
+\usepackage{setspace}
+\usepackage{hyperref}
+\usepackage{comment}
+\usepackage{parskip}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage[a4paper, left=1.5in, right=1in, top=1in, bottom=1in]{geometry}
+\usepackage[english=british]{csquotes}
+\usepackage{tikz}
+\usepackage{fontspec}
+\setmainfont{Times New Roman}
+
+
+
+% --  Tikz setup --- 
+\usetikzlibrary{
+  shapes.geometric,   % diamonds, cylinders
+  shapes.misc,        % rounded rectangles
+  arrows.meta,        % arrow tips
+  positioning,        % relative node placement
+  backgrounds,        % shaded regions
+  fit                 % bounding boxes around groups
+}
+\tikzset{
+  process/.style = {
+    rectangle, draw, rounded corners=3pt,
+    text width=3cm, align=center,
+    minimum height=1cm, font=\small
+  },
+  decision/.style = {
+    diamond, draw, aspect=2.2,
+    text width=2cm, align=center,
+    font=\small, inner sep=0pt
+  },
+  file/.style = {
+    trapezium, draw,
+    trapezium left angle=80, trapezium right angle=100,
+    text width=2.5cm, align=center, font=\small
+  },
+  db/.style = {
+    cylinder, draw, fill=blue!10,
+    shape border rotate=90,
+    aspect=0.25,
+    text width=2cm, align=center, font=\small
+  },
+  arrow/.style = {-{Stealth}, thick}
+}
+
+% --- Bibliography Engine (Vancouver Configuration) ---
+\usepackage[
+    backend=biber,       
+    style=vancouver,     
+    sorting=none,          % <-- FIXED: Safely out of comment blocks
+    citestyle=numeric-comp 
+]{biblatex}
+
+
+\addbibresource{references.bib} 
+% --- Line Spacing & Macro Tuning ---
+\onehalfspacing
+\newcommand{\mtb}{\textit{Mycobacterium tuberculosis }}
+\newcommand{\ppe}{\textit{pe/ppe} }
+\newcommand{\etal}{\textit{et al.}}
+

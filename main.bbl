@@ -1,0 +1,2485 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global/global}
+    \entry{pai2016}{article}{}{}
+      \name{author}{6}{}{%
+        {{hash=0715bb1d8c9f387a788ee69ba7e9bf83}{%
+           family={Pai},
+           familyi={P\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=50c54d97f463c7e7690d1e7e59ce1883}{%
+           family={Behr},
+           familyi={B\bibinitperiod},
+           given={M.\bibnamedelimi A.},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=838532ff3736629aa3d0f674d8ef2daf}{%
+           family={Dowdy},
+           familyi={D\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=1d086126088dc5bf14a5941941ff9c7c}{%
+           family={Dheda},
+           familyi={D\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod}}}%
+        {{hash=a20b4ef252ff14e6efc2d2933aad885f}{%
+           family={Divangahi},
+           familyi={D\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=2536bc29ee3e44e2093dc41868d58caa}{%
+           family={Boehme},
+           familyi={B\bibinitperiod},
+           given={C.\bibnamedelimi C.\bibnamedelimi et\bibnamedelima al.},
+           giveni={C\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim e\bibinitperiod\bibinitdelim a\bibinitperiod}}}%
+      }
+      \strng{namehash}{6e77056999a66deb19e940499b6710e7}
+      \strng{fullhash}{dc6104f8bfdde42847c53a2e95b74188}
+      \strng{fullhashraw}{dc6104f8bfdde42847c53a2e95b74188}
+      \strng{bibnamehash}{dc6104f8bfdde42847c53a2e95b74188}
+      \strng{authorbibnamehash}{dc6104f8bfdde42847c53a2e95b74188}
+      \strng{authornamehash}{6e77056999a66deb19e940499b6710e7}
+      \strng{authorfullhash}{dc6104f8bfdde42847c53a2e95b74188}
+      \strng{authorfullhashraw}{dc6104f8bfdde42847c53a2e95b74188}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nat Rev Dis Primers}
+      \field{title}{Tuberculosis}
+      \field{volume}{2}
+      \field{year}{2016}
+      \field{pages}{16076}
+      \range{pages}{1}
+    \endentry
+    \entry{gagneux2018}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=4563e6a464ab59ed1e6ea49a948e8644}{%
+           family={Gagneux},
+           familyi={G\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{4563e6a464ab59ed1e6ea49a948e8644}
+      \strng{fullhash}{4563e6a464ab59ed1e6ea49a948e8644}
+      \strng{fullhashraw}{4563e6a464ab59ed1e6ea49a948e8644}
+      \strng{bibnamehash}{4563e6a464ab59ed1e6ea49a948e8644}
+      \strng{authorbibnamehash}{4563e6a464ab59ed1e6ea49a948e8644}
+      \strng{authornamehash}{4563e6a464ab59ed1e6ea49a948e8644}
+      \strng{authorfullhash}{4563e6a464ab59ed1e6ea49a948e8644}
+      \strng{authorfullhashraw}{4563e6a464ab59ed1e6ea49a948e8644}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nat Rev Microbiol}
+      \field{number}{4}
+      \field{title}{Ecology and evolution of Mycobacterium tuberculosis}
+      \field{volume}{16}
+      \field{year}{2018}
+      \field{pages}{202\bibrangedash 13}
+      \range{pages}{12}
+    \endentry
+    \entry{riojas2018}{article}{}{}
+      \name{author}{5}{}{%
+        {{hash=98a51266c37a74b5f269eb4eee1cbfb9}{%
+           family={Riojas},
+           familyi={R\bibinitperiod},
+           given={M.\bibnamedelimi A.},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=f009d119a6404e5e9410a2a4ee695659}{%
+           family={McGough},
+           familyi={M\bibinitperiod},
+           given={K.\bibnamedelimi J.},
+           giveni={K\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=d1bb2129e997875998a94c1dcc580821}{%
+           family={Rider-Riojas},
+           familyi={R\bibinithyphendelim R\bibinitperiod},
+           given={C.\bibnamedelimi J.},
+           giveni={C\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=db53dab56352ab28bbfe157b485e9ef7}{%
+           family={Rastogi},
+           familyi={R\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod}}}%
+        {{hash=05b109e94014a2ebd36b8dd16a5cdee5}{%
+           family={Hazbón},
+           familyi={H\bibinitperiod},
+           given={M.\bibnamedelimi H.},
+           giveni={M\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+      }
+      \strng{namehash}{22b7395c2f0a6a4ce3aee84b2e20a3c7}
+      \strng{fullhash}{c2b3b5c3bdc78bf31d6fa448d9ae3f58}
+      \strng{fullhashraw}{c2b3b5c3bdc78bf31d6fa448d9ae3f58}
+      \strng{bibnamehash}{c2b3b5c3bdc78bf31d6fa448d9ae3f58}
+      \strng{authorbibnamehash}{c2b3b5c3bdc78bf31d6fa448d9ae3f58}
+      \strng{authornamehash}{22b7395c2f0a6a4ce3aee84b2e20a3c7}
+      \strng{authorfullhash}{c2b3b5c3bdc78bf31d6fa448d9ae3f58}
+      \strng{authorfullhashraw}{c2b3b5c3bdc78bf31d6fa448d9ae3f58}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Int J Syst Evol Microbiol}
+      \field{number}{1}
+      \field{title}{Phylogenomic analysis of the species of the Mycobacterium tuberculosis complex demonstrates that Mycobacterium africanum, Mycobacterium bovis, Mycobacterium caprae, Mycobacterium microti and Mycobacterium pinnipedii are later heterotypic synonyms of Mycobacterium tuberculosis}
+      \field{volume}{68}
+      \field{year}{2018}
+      \field{pages}{324\bibrangedash 32}
+      \range{pages}{9}
+    \endentry
+    \entry{who2022}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=531217507bec092b6ec36c0f78f46736}{%
+           family={{World Health Organization}},
+           familyi={W\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {World Health Organization}%
+      }
+      \strng{namehash}{531217507bec092b6ec36c0f78f46736}
+      \strng{fullhash}{531217507bec092b6ec36c0f78f46736}
+      \strng{fullhashraw}{531217507bec092b6ec36c0f78f46736}
+      \strng{bibnamehash}{531217507bec092b6ec36c0f78f46736}
+      \strng{authorbibnamehash}{531217507bec092b6ec36c0f78f46736}
+      \strng{authornamehash}{531217507bec092b6ec36c0f78f46736}
+      \strng{authorfullhash}{531217507bec092b6ec36c0f78f46736}
+      \strng{authorfullhashraw}{531217507bec092b6ec36c0f78f46736}
+      \field{extraname}{1}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Global tuberculosis report 2022}
+      \field{year}{2022}
+    \endentry
+    \entry{whitney2016}{article}{}{}
+      \name{author}{6}{}{%
+        {{hash=7cd064aa4c43fdc1561c6c26385702c4}{%
+           family={Witney},
+           familyi={W\bibinitperiod},
+           given={A.\bibnamedelimi A.},
+           giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=c050e548c3fae6325cead2a8eb015fa8}{%
+           family={Cosgrove},
+           familyi={C\bibinitperiod},
+           given={C.\bibnamedelimi A.},
+           giveni={C\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=eb04f6c6c95c24a12909bc3430f4cdd6}{%
+           family={Arnold},
+           familyi={A\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=fb1b978c09d729f7007b2e4fec7b5dd7}{%
+           family={Hinds},
+           familyi={H\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=63b7313d4488b5751bbb69168b4341c3}{%
+           family={Stoker},
+           familyi={S\bibinitperiod},
+           given={N.\bibnamedelimi G.},
+           giveni={N\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=03ac9aa7cefd4858ab312f5611054362}{%
+           family={Butcher},
+           familyi={B\bibinitperiod},
+           given={P.\bibnamedelimi D.},
+           giveni={P\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \strng{namehash}{1901d1a8e93a11eb7dd3341eec0c4b85}
+      \strng{fullhash}{375b0889437448a28bd77ecd4c86bab9}
+      \strng{fullhashraw}{375b0889437448a28bd77ecd4c86bab9}
+      \strng{bibnamehash}{375b0889437448a28bd77ecd4c86bab9}
+      \strng{authorbibnamehash}{375b0889437448a28bd77ecd4c86bab9}
+      \strng{authornamehash}{1901d1a8e93a11eb7dd3341eec0c4b85}
+      \strng{authorfullhash}{375b0889437448a28bd77ecd4c86bab9}
+      \strng{authorfullhashraw}{375b0889437448a28bd77ecd4c86bab9}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{BMC Med}
+      \field{title}{Clinical use of whole genome sequencing for Mycobacterium tuberculosis}
+      \field{volume}{14}
+      \field{year}{2016}
+      \field{pages}{1\bibrangedash 7}
+      \range{pages}{7}
+    \endentry
+    \entry{islam2017drug}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{10}{}{%
+        {{hash=c90a5cbc4371684e12da0cea77d70523}{%
+           family={Islam},
+           familyi={I\bibinitperiod},
+           given={Md\bibnamedelima Mahmudul},
+           giveni={M\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=4e7ff087e5696dc8dda0ad22a34af6f2}{%
+           family={Hameed},
+           familyi={H\bibinitperiod},
+           given={HM\bibnamedelima Adnan},
+           giveni={H\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=41d54ffcc2cc0ca4cd71d5ada2fbbe58}{%
+           family={Mugweru},
+           familyi={M\bibinitperiod},
+           given={Julius},
+           giveni={J\bibinitperiod}}}%
+        {{hash=6b57edbcbca3db7eaa32de53472f8fe5}{%
+           family={Chhotaray},
+           familyi={C\bibinitperiod},
+           given={Chiranjibi},
+           giveni={C\bibinitperiod}}}%
+        {{hash=4c52a224d2368e10dc78a626b724b285}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Changwei},
+           giveni={C\bibinitperiod}}}%
+        {{hash=3b157306b7a604a39e0920473570e34f}{%
+           family={Tan},
+           familyi={T\bibinitperiod},
+           given={Yaoju},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=634f343c0e48fe5e03fe1755eca328d7}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Jianxiong},
+           giveni={J\bibinitperiod}}}%
+        {{hash=5a9b5704f88bf0462b55d40aa6559f37}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Xinjie},
+           giveni={X\bibinitperiod}}}%
+        {{hash=b40a2e380564ed09a988adefe0f4ef65}{%
+           family={Tan},
+           familyi={T\bibinitperiod},
+           given={Shouyong},
+           giveni={S\bibinitperiod}}}%
+        {{hash=4518b1c6c4b9df0c4d6abff55151da90}{%
+           family={Ojima},
+           familyi={O\bibinitperiod},
+           given={Iwao},
+           giveni={I\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{16532081b05bf245d7aabaa85181ec17}
+      \strng{fullhash}{573e1694637032518e26edf6fdfc02f2}
+      \strng{fullhashraw}{573e1694637032518e26edf6fdfc02f2}
+      \strng{bibnamehash}{573e1694637032518e26edf6fdfc02f2}
+      \strng{authorbibnamehash}{573e1694637032518e26edf6fdfc02f2}
+      \strng{authornamehash}{16532081b05bf245d7aabaa85181ec17}
+      \strng{authorfullhash}{573e1694637032518e26edf6fdfc02f2}
+      \strng{authorfullhashraw}{573e1694637032518e26edf6fdfc02f2}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of genetics and genomics}
+      \field{number}{1}
+      \field{title}{Drug resistance mechanisms and novel drug targets for tuberculosis therapy}
+      \field{volume}{44}
+      \field{year}{2017}
+      \field{pages}{21\bibrangedash 37}
+      \range{pages}{17}
+    \endentry
+    \entry{khawbung2021}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=3fb4509db1d986ac8414153c3b2a8105}{%
+           family={Khawbung},
+           familyi={K\bibinitperiod},
+           given={J.\bibnamedelimi L.},
+           giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=f30a70ae6eb6089ac351e6393fa748ac}{%
+           family={Nath},
+           familyi={N\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=17d777989c89ecf12f1ff3b51386964b}{%
+           family={Chakraborty},
+           familyi={C\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{6607ed4f0cb745ad17b66f7352bce4e0}
+      \strng{fullhash}{6607ed4f0cb745ad17b66f7352bce4e0}
+      \strng{fullhashraw}{6607ed4f0cb745ad17b66f7352bce4e0}
+      \strng{bibnamehash}{6607ed4f0cb745ad17b66f7352bce4e0}
+      \strng{authorbibnamehash}{6607ed4f0cb745ad17b66f7352bce4e0}
+      \strng{authornamehash}{6607ed4f0cb745ad17b66f7352bce4e0}
+      \strng{authorfullhash}{6607ed4f0cb745ad17b66f7352bce4e0}
+      \strng{authorfullhashraw}{6607ed4f0cb745ad17b66f7352bce4e0}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Comp Immunol Microbiol Infect Dis}
+      \field{title}{Drug resistant tuberculosis: A review}
+      \field{volume}{74}
+      \field{year}{2021}
+      \field{pages}{101574}
+      \range{pages}{1}
+    \endentry
+    \entry{horsburgh2015}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=614f9d6708a715dda09fb0035569c9b0}{%
+           family={Horsburgh},
+           familyi={H\bibinitperiod},
+           given={C.\bibnamedelimi R.\bibnamedelimi Jr},
+           giveni={C\bibinitperiod\bibinitdelim R\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=81fc061ee416ce17f5ca19cc4a8d54b4}{%
+           family={Barry},
+           familyi={B\bibinitperiod},
+           given={C.\bibnamedelimi E.},
+           giveni={C\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=3fd3ac1a8eb9a75f65d64b90dd53eb64}{%
+           family={Lange},
+           familyi={L\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{1b88cf0bf24d54ca4cb603f1db8317c8}
+      \strng{fullhash}{1b88cf0bf24d54ca4cb603f1db8317c8}
+      \strng{fullhashraw}{1b88cf0bf24d54ca4cb603f1db8317c8}
+      \strng{bibnamehash}{1b88cf0bf24d54ca4cb603f1db8317c8}
+      \strng{authorbibnamehash}{1b88cf0bf24d54ca4cb603f1db8317c8}
+      \strng{authornamehash}{1b88cf0bf24d54ca4cb603f1db8317c8}
+      \strng{authorfullhash}{1b88cf0bf24d54ca4cb603f1db8317c8}
+      \strng{authorfullhashraw}{1b88cf0bf24d54ca4cb603f1db8317c8}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{N Engl J Med}
+      \field{number}{22}
+      \field{title}{Treatment of tuberculosis}
+      \field{volume}{373}
+      \field{year}{2015}
+      \field{pages}{2149\bibrangedash 60}
+      \range{pages}{21}
+    \endentry
+    \entry{queensland_health_2023}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=45d18ab6ad00bb42e0f76571199858b6}{%
+           family={{Queensland Health}},
+           familyi={Q\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Queensland Government}%
+      }
+      \strng{namehash}{45d18ab6ad00bb42e0f76571199858b6}
+      \strng{fullhash}{45d18ab6ad00bb42e0f76571199858b6}
+      \strng{fullhashraw}{45d18ab6ad00bb42e0f76571199858b6}
+      \strng{bibnamehash}{45d18ab6ad00bb42e0f76571199858b6}
+      \strng{authorbibnamehash}{45d18ab6ad00bb42e0f76571199858b6}
+      \strng{authornamehash}{45d18ab6ad00bb42e0f76571199858b6}
+      \strng{authorfullhash}{45d18ab6ad00bb42e0f76571199858b6}
+      \strng{authorfullhashraw}{45d18ab6ad00bb42e0f76571199858b6}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Treatment of tuberculosis in adults and children: Guideline}
+      \field{year}{2023}
+    \endentry
+    \entry{Heyckendorf2018}{article}{}{}
+      \name{author}{6}{}{%
+        {{hash=1dbe8a1bf8e901c67973a3e7d3cd94a7}{%
+           family={Heyckendorf},
+           familyi={H\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=2827baf8c525f282195d63f7a1a28fc2}{%
+           family={Andres},
+           familyi={A\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=a26d953478b7d69f1905cbab86dc888c}{%
+           family={Köser},
+           familyi={K\bibinitperiod},
+           given={C.\bibnamedelimi U.},
+           giveni={C\bibinitperiod\bibinitdelim U\bibinitperiod}}}%
+        {{hash=3a79d9b0b56f771ca79286442a6c0e9d}{%
+           family={Olaru},
+           familyi={O\bibinitperiod},
+           given={I.\bibnamedelimi D.},
+           giveni={I\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=58c080f386d6e47476cf6f6fd33833d4}{%
+           family={Schön},
+           familyi={S\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+        {{hash=86a883e0ab5928f10b7ce3e8050e5c75}{%
+           family={Sturegård},
+           familyi={S\bibinitperiod},
+           given={E.\bibnamedelimi et\bibnamedelima al.},
+           giveni={E\bibinitperiod\bibinitdelim e\bibinitperiod\bibinitdelim a\bibinitperiod}}}%
+      }
+      \strng{namehash}{5ecb268effb995a1dade1f954413c157}
+      \strng{fullhash}{5c623034f2b8d063669b3803ee3f5a75}
+      \strng{fullhashraw}{5c623034f2b8d063669b3803ee3f5a75}
+      \strng{bibnamehash}{5c623034f2b8d063669b3803ee3f5a75}
+      \strng{authorbibnamehash}{5c623034f2b8d063669b3803ee3f5a75}
+      \strng{authornamehash}{5ecb268effb995a1dade1f954413c157}
+      \strng{authorfullhash}{5c623034f2b8d063669b3803ee3f5a75}
+      \strng{authorfullhashraw}{5c623034f2b8d063669b3803ee3f5a75}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Antimicrob Agents Chemother}
+      \field{month}{1}
+      \field{number}{2}
+      \field{title}{What is resistance? Impact of phenotypic versus molecular drug resistance testing on therapy for multi- and extensively drug-resistant tuberculosis}
+      \field{volume}{62}
+      \field{year}{2018}
+      \field{pages}{10.1128/aac.01550\bibrangedash 17}
+      \range{pages}{-1}
+    \endentry
+    \entry{Viney2100361}{article}{}{}
+      \name{author}{8}{}{%
+        {{hash=ce09e16ba8bd2689a2f0b68520449310}{%
+           family={Viney},
+           familyi={V\bibinitperiod},
+           given={Kerri},
+           giveni={K\bibinitperiod}}}%
+        {{hash=f47e9e23f9295f78fe1f36decd4cf159}{%
+           family={Linh},
+           familyi={L\bibinitperiod},
+           given={Nguyen\bibnamedelima Nhat},
+           giveni={N\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+        {{hash=521606fe56d5316608a7db611de3384c}{%
+           family={Gegia},
+           familyi={G\bibinitperiod},
+           given={Medea},
+           giveni={M\bibinitperiod}}}%
+        {{hash=74bc374892fd7140d822db6a55c4e1e6}{%
+           family={Zignol},
+           familyi={Z\bibinitperiod},
+           given={Matteo},
+           giveni={M\bibinitperiod}}}%
+        {{hash=a3ad27efa87531942ac3b5b0634adae7}{%
+           family={Glaziou},
+           familyi={G\bibinitperiod},
+           given={Philippe},
+           giveni={P\bibinitperiod}}}%
+        {{hash=48961b7e7bf6521c9bbd0d11ee74ac88}{%
+           family={Ismail},
+           familyi={I\bibinitperiod},
+           given={Nazir},
+           giveni={N\bibinitperiod}}}%
+        {{hash=93556bbbbbee6cfa48b9fcd8fae8b077}{%
+           family={Kasaeva},
+           familyi={K\bibinitperiod},
+           given={Tereza},
+           giveni={T\bibinitperiod}}}%
+        {{hash=832b89d94df03eabe14352e829558168}{%
+           family={Mirzayev},
+           familyi={M\bibinitperiod},
+           given={Fuad},
+           giveni={F\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Eur Respir J}%
+      }
+      \strng{namehash}{a87df9a4432d6ff474e478d929cbe1d5}
+      \strng{fullhash}{cdbbcfa4b0052984f0868a0f6401a60b}
+      \strng{fullhashraw}{cdbbcfa4b0052984f0868a0f6401a60b}
+      \strng{bibnamehash}{cdbbcfa4b0052984f0868a0f6401a60b}
+      \strng{authorbibnamehash}{cdbbcfa4b0052984f0868a0f6401a60b}
+      \strng{authornamehash}{a87df9a4432d6ff474e478d929cbe1d5}
+      \strng{authorfullhash}{cdbbcfa4b0052984f0868a0f6401a60b}
+      \strng{authorfullhashraw}{cdbbcfa4b0052984f0868a0f6401a60b}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The definition of extensively drug resistant tuberculosis has been updated by the World Health Organization and pre-extensively drug-resistant tuberculosis has been defined https://bit.ly/30Fdffc}
+      \field{journaltitle}{European Respiratory Journal}
+      \field{number}{4}
+      \field{title}{New definitions of pre-extensively and extensively drug-resistant tuberculosis: update from the World Health Organization}
+      \field{volume}{57}
+      \field{year}{2021}
+      \verb{doi}
+      \verb 10.1183/13993003.00361-2021
+      \endverb
+      \verb{eprint}
+      \verb http://erj.ersjournals.com/content/erj/57/4/2100361.full.pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://erj.ersjournals.com/content/erj/57/4/2100361
+      \endverb
+      \verb{url}
+      \verb http://erj.ersjournals.com/content/erj/57/4/2100361
+      \endverb
+    \endentry
+    \entry{Aguilar2023}{article}{}{}
+      \name{author}{9}{}{%
+        {{hash=c4d53e1138e96fe2bc14130a7724c768}{%
+           family={Aguilar\bibnamedelima Diaz},
+           familyi={A\bibinitperiod\bibinitdelim D\bibinitperiod},
+           given={J.\bibnamedelimi M.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=95d925d449837fb62f95fa4af3536578}{%
+           family={Abulfathi},
+           familyi={A\bibinitperiod},
+           given={A.\bibnamedelimi A.},
+           giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=899ddf315bf7ead58b48605576d318d4}{%
+           family={Te\bibnamedelima Brake},
+           familyi={T\bibinitperiod\bibinitdelim B\bibinitperiod},
+           given={L.\bibnamedelimi H.},
+           giveni={L\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=63f89645278f99e85f2c75c5b2da0785}{%
+           family={Ingen},
+           familyi={I\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod},
+           prefix={van},
+           prefixi={v\bibinitperiod}}}%
+        {{hash=1f2535ec7f80d61777b51b6ed12e1ea8}{%
+           family={Kuipers},
+           familyi={K\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=f32a1732eb1587c71274a7a4e171a27a}{%
+           family={Magis-Escurra},
+           familyi={M\bibinithyphendelim E\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=73491a175763f255d14e51b31b4cb612}{%
+           family={Raaijmakers},
+           familyi={R\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=323978bdedaa6e375d577f2b1a9dbc3a}{%
+           family={Svensson},
+           familyi={S\bibinitperiod},
+           given={E.\bibnamedelimi M.},
+           giveni={E\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=77c0991527c89bb9277533e04c38fdc5}{%
+           family={Boeree},
+           familyi={B\bibinitperiod},
+           given={M.\bibnamedelimi J.},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{cd58dc62fe6637fee1458e28f0873741}
+      \strng{fullhash}{b62284de103bfbc7fe40cebd291125dd}
+      \strng{fullhashraw}{b62284de103bfbc7fe40cebd291125dd}
+      \strng{bibnamehash}{b62284de103bfbc7fe40cebd291125dd}
+      \strng{authorbibnamehash}{b62284de103bfbc7fe40cebd291125dd}
+      \strng{authornamehash}{cd58dc62fe6637fee1458e28f0873741}
+      \strng{authorfullhash}{b62284de103bfbc7fe40cebd291125dd}
+      \strng{authorfullhashraw}{b62284de103bfbc7fe40cebd291125dd}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Respiration}
+      \field{month}{2}
+      \field{number}{2}
+      \field{title}{New and repurposed drugs for the treatment of active tuberculosis: an update for clinicians}
+      \field{volume}{102}
+      \field{year}{2023}
+      \field{pages}{83\bibrangedash 100}
+      \range{pages}{18}
+    \endentry
+    \entry{whoguide2022}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=531217507bec092b6ec36c0f78f46736}{%
+           family={{World Health Organization}},
+           familyi={W\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {World Health Organization}%
+      }
+      \strng{namehash}{531217507bec092b6ec36c0f78f46736}
+      \strng{fullhash}{531217507bec092b6ec36c0f78f46736}
+      \strng{fullhashraw}{531217507bec092b6ec36c0f78f46736}
+      \strng{bibnamehash}{531217507bec092b6ec36c0f78f46736}
+      \strng{authorbibnamehash}{531217507bec092b6ec36c0f78f46736}
+      \strng{authornamehash}{531217507bec092b6ec36c0f78f46736}
+      \strng{authorfullhash}{531217507bec092b6ec36c0f78f46736}
+      \strng{authorfullhashraw}{531217507bec092b6ec36c0f78f46736}
+      \field{extraname}{2}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{11}
+      \field{title}{WHO consolidated guidelines on tuberculosis. Module 4: treatment-drug-resistant tuberculosis treatment, 2022 update}
+      \field{year}{2022}
+    \endentry
+    \entry{sturdy2011mdr}{article}{}{}
+      \name{author}{11}{}{%
+        {{hash=f3fbc01186805d4151d91f87057e7b81}{%
+           family={Sturdy},
+           familyi={S\bibinitperiod},
+           given={Alice},
+           giveni={A\bibinitperiod}}}%
+        {{hash=19e7bbda4be43a2a299f081c3a0c56b9}{%
+           family={Goodman},
+           familyi={G\bibinitperiod},
+           given={Alexandra},
+           giveni={A\bibinitperiod}}}%
+        {{hash=10457a39c824a5a3d34876ec0e056a9c}{%
+           family={José},
+           familyi={J\bibinitperiod},
+           given={Rachel\bibnamedelima J},
+           giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=78b022b5676027817fc7e4ab8678cfc6}{%
+           family={Loyse},
+           familyi={L\bibinitperiod},
+           given={Alice},
+           giveni={A\bibinitperiod}}}%
+        {{hash=2a01d4a6708d9563f9ef516d96d27b24}{%
+           family={O'Donoghue},
+           familyi={O\bibinitperiod},
+           given={Matthew},
+           giveni={M\bibinitperiod}}}%
+        {{hash=31ceaf8d706085b936234239c83af41a}{%
+           family={Kon},
+           familyi={K\bibinitperiod},
+           given={Omara\bibnamedelima M},
+           giveni={O\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=16c8241f8f46df613c5b94b845f47d87}{%
+           family={Dedicoat},
+           familyi={D\bibinitperiod},
+           given={Martin\bibnamedelima J},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=6ff4d2720c21da068bc446259464ad8c}{%
+           family={Harrison},
+           familyi={H\bibinitperiod},
+           given={Thomas\bibnamedelima S},
+           giveni={T\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=1e7a1627dd81fe24d7f043cc46c1e8af}{%
+           family={John},
+           familyi={J\bibinitperiod},
+           given={Lindsay},
+           giveni={L\bibinitperiod}}}%
+        {{hash=ab3fdd6c607e1fce646dde4ea9220046}{%
+           family={Lipman},
+           familyi={L\bibinitperiod},
+           given={Marc},
+           giveni={M\bibinitperiod}}}%
+        {{hash=74d1ad8fa876731ab7bee298087e86f0}{%
+           family={Cooke},
+           familyi={C\bibinitperiod},
+           given={Graham\bibnamedelima S},
+           giveni={G\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \strng{namehash}{7ec38da545864970db80222140185258}
+      \strng{fullhash}{010e734b3a8f1f2853bdae7df625568c}
+      \strng{fullhashraw}{010e734b3a8f1f2853bdae7df625568c}
+      \strng{bibnamehash}{010e734b3a8f1f2853bdae7df625568c}
+      \strng{authorbibnamehash}{010e734b3a8f1f2853bdae7df625568c}
+      \strng{authornamehash}{7ec38da545864970db80222140185258}
+      \strng{authorfullhash}{010e734b3a8f1f2853bdae7df625568c}
+      \strng{authorfullhashraw}{010e734b3a8f1f2853bdae7df625568c}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Antimicrobial Chemotherapy}
+      \field{month}{7}
+      \field{number}{8}
+      \field{title}{Multidrug-resistant tuberculosis (MDR-TB) treatment in the UK: a study of injectable use and toxicity in practice}
+      \field{volume}{66}
+      \field{year}{2011}
+      \field{pages}{1815\bibrangedash 1820}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1093/jac/dkr221
+      \endverb
+      \verb{eprint}
+      \verb 2011-06-03
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1093/jac/dkr221
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1093/jac/dkr221
+      \endverb
+    \endentry
+    \entry{Yusoof2022}{article}{}{}
+      \name{author}{6}{}{%
+        {{hash=0437e4968cbc484061995bd04df794c4}{%
+           family={Yusoof},
+           familyi={Y\bibinitperiod},
+           given={K.\bibnamedelimi A.},
+           giveni={K\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=258ff735734cf407e76a5900db520b01}{%
+           family={García},
+           familyi={G\bibinitperiod},
+           given={J.\bibnamedelimi I.},
+           giveni={J\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+        {{hash=655cf3bf0ce334fe8c5bd374cabd7702}{%
+           family={Schami},
+           familyi={S\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=8a40c74ff57ef43c229ed45c541ad216}{%
+           family={Garcia-Vilanova},
+           familyi={G\bibinithyphendelim V\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=5e6a0c542c472cd6a8a5e170ee611e8f}{%
+           family={Kelley},
+           familyi={K\bibinitperiod},
+           given={H.\bibnamedelimi V.},
+           giveni={H\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+        {{hash=842c43b79861c8d482650c97cf143d9c}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={S.\bibnamedelimi H.\bibnamedelimi et\bibnamedelima al.},
+           giveni={S\bibinitperiod\bibinitdelim H\bibinitperiod\bibinitdelim e\bibinitperiod\bibinitdelim a\bibinitperiod}}}%
+      }
+      \strng{namehash}{1ba30223d0cdc028f6f5a5b915156475}
+      \strng{fullhash}{ae8dd61b76088a6bf96ccacac49dc588}
+      \strng{fullhashraw}{ae8dd61b76088a6bf96ccacac49dc588}
+      \strng{bibnamehash}{ae8dd61b76088a6bf96ccacac49dc588}
+      \strng{authorbibnamehash}{ae8dd61b76088a6bf96ccacac49dc588}
+      \strng{authornamehash}{1ba30223d0cdc028f6f5a5b915156475}
+      \strng{authorfullhash}{ae8dd61b76088a6bf96ccacac49dc588}
+      \strng{authorfullhashraw}{ae8dd61b76088a6bf96ccacac49dc588}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Front Immunol}
+      \field{month}{7}
+      \field{title}{Tuberculosis phenotypic and genotypic drug susceptibility testing and immunodiagnostics: a review}
+      \field{volume}{13}
+      \field{year}{2022}
+      \field{pages}{870768}
+      \range{pages}{1}
+    \endentry
+    \entry{who2021tb}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=531217507bec092b6ec36c0f78f46736}{%
+           family={{World Health Organization}},
+           familyi={W\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Geneva}%
+      }
+      \list{publisher}{1}{%
+        {World Health Organization}%
+      }
+      \strng{namehash}{531217507bec092b6ec36c0f78f46736}
+      \strng{fullhash}{531217507bec092b6ec36c0f78f46736}
+      \strng{fullhashraw}{531217507bec092b6ec36c0f78f46736}
+      \strng{bibnamehash}{531217507bec092b6ec36c0f78f46736}
+      \strng{authorbibnamehash}{531217507bec092b6ec36c0f78f46736}
+      \strng{authornamehash}{531217507bec092b6ec36c0f78f46736}
+      \strng{authorfullhash}{531217507bec092b6ec36c0f78f46736}
+      \strng{authorfullhashraw}{531217507bec092b6ec36c0f78f46736}
+      \field{extraname}{3}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-92-4-001728-3}
+      \field{title}{Global Tuberculosis Report 2021}
+      \field{year}{2021}
+      \verb{doi}
+      \verb 10.1093/jac/dkr221
+      \endverb
+      \verb{urlraw}
+      \verb https://www.who.int/publications/i/item/9789240017283
+      \endverb
+      \verb{url}
+      \verb https://www.who.int/publications/i/item/9789240017283
+      \endverb
+    \endentry
+    \entry{who2018tb}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=531217507bec092b6ec36c0f78f46736}{%
+           family={{World Health Organization}},
+           familyi={W\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Geneva}%
+      }
+      \list{publisher}{1}{%
+        {World Health Organization}%
+      }
+      \strng{namehash}{531217507bec092b6ec36c0f78f46736}
+      \strng{fullhash}{531217507bec092b6ec36c0f78f46736}
+      \strng{fullhashraw}{531217507bec092b6ec36c0f78f46736}
+      \strng{bibnamehash}{531217507bec092b6ec36c0f78f46736}
+      \strng{authorbibnamehash}{531217507bec092b6ec36c0f78f46736}
+      \strng{authornamehash}{531217507bec092b6ec36c0f78f46736}
+      \strng{authorfullhash}{531217507bec092b6ec36c0f78f46736}
+      \strng{authorfullhashraw}{531217507bec092b6ec36c0f78f46736}
+      \field{extraname}{4}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-92-4-151484-2}
+      \field{title}{Global Tuberculosis Report 2018}
+      \field{year}{2018}
+      \verb{doi}
+      \verb 10.1093/jac/dkr221
+      \endverb
+      \verb{urlraw}
+      \verb https://www.who.int/publications/i/item/9789241514842
+      \endverb
+      \verb{url}
+      \verb https://www.who.int/publications/i/item/9789241514842
+      \endverb
+    \endentry
+    \entry{who_world_bank_2022}{book}{}{}
+      \name{author}{2}{}{%
+        {{hash=531217507bec092b6ec36c0f78f46736}{%
+           family={{World Health Organization}},
+           familyi={W\bibinitperiod}}}%
+        {{hash=32730e15a7ca0bf0686ea8d4a3a46ab9}{%
+           family={{World Bank}},
+           familyi={W\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {World Health Organization}%
+      }
+      \strng{namehash}{ccc916305de75671fc563a7568d58288}
+      \strng{fullhash}{ccc916305de75671fc563a7568d58288}
+      \strng{fullhashraw}{ccc916305de75671fc563a7568d58288}
+      \strng{bibnamehash}{ccc916305de75671fc563a7568d58288}
+      \strng{authorbibnamehash}{ccc916305de75671fc563a7568d58288}
+      \strng{authornamehash}{ccc916305de75671fc563a7568d58288}
+      \strng{authorfullhash}{ccc916305de75671fc563a7568d58288}
+      \strng{authorfullhashraw}{ccc916305de75671fc563a7568d58288}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Global monitoring report on financial protection in health 2021}
+      \field{year}{2022}
+    \endentry
+    \entry{sinha2020detection}{article}{}{}
+      \name{author}{5}{}{%
+        {{hash=c10c23e6f8d1af8b3de632471733a021}{%
+           family={Sinha},
+           familyi={S\bibinitperiod},
+           given={Pallavi},
+           giveni={P\bibinitperiod}}}%
+        {{hash=dfb1b53918b187c71308dad588c1282b}{%
+           family={Srivastava},
+           familyi={S\bibinitperiod},
+           given={GN},
+           giveni={G\bibinitperiod}}}%
+        {{hash=1576a00145b2dbd2c505838ac9eabeb5}{%
+           family={Tripathi},
+           familyi={T\bibinitperiod},
+           given={Rajneesh},
+           giveni={R\bibinitperiod}}}%
+        {{hash=2c5a33b163abf3cf521b2a72b1fbd22d}{%
+           family={Mishra},
+           familyi={M\bibinitperiod},
+           given={Mukti\bibnamedelima Nath},
+           giveni={M\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+        {{hash=57184bf96e35ea6668972524f0bed575}{%
+           family={Anupurba},
+           familyi={A\bibinitperiod},
+           given={Shampa},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{abd4e93843a5fdca9a0a007304d98e22}
+      \strng{fullhash}{76df52908bdeff547d1568ccbceb611a}
+      \strng{fullhashraw}{76df52908bdeff547d1568ccbceb611a}
+      \strng{bibnamehash}{76df52908bdeff547d1568ccbceb611a}
+      \strng{authorbibnamehash}{76df52908bdeff547d1568ccbceb611a}
+      \strng{authornamehash}{abd4e93843a5fdca9a0a007304d98e22}
+      \strng{authorfullhash}{76df52908bdeff547d1568ccbceb611a}
+      \strng{authorfullhashraw}{76df52908bdeff547d1568ccbceb611a}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{BMC microbiology}
+      \field{title}{Detection of mutations in the rpoB gene of rifampicin-resistant Mycobacterium tuberculosis strains inhibiting wild type probe hybridization in the MTBDR plus assay by DNA sequencing directly from clinical specimens}
+      \field{volume}{20}
+      \field{year}{2020}
+      \field{pages}{1\bibrangedash 8}
+      \range{pages}{8}
+      \verb{doi}
+      \verb https://doi.org/10.1186/s12866-020-01967-5
+      \endverb
+    \endentry
+    \entry{iram2015rapid}{article}{}{}
+      \name{author}{5}{}{%
+        {{hash=8de6eab25b85b9c0b1c384f7fd0401b5}{%
+           family={Iram},
+           familyi={I\bibinitperiod},
+           given={Shagufta},
+           giveni={S\bibinitperiod}}}%
+        {{hash=891fb1e8d5de0477198642d0c9fc1ebe}{%
+           family={Zeenat},
+           familyi={Z\bibinitperiod},
+           given={Asyia},
+           giveni={A\bibinitperiod}}}%
+        {{hash=94ec459d03d29969736ce3154525dd39}{%
+           family={Hussain},
+           familyi={H\bibinitperiod},
+           given={Shahida},
+           giveni={S\bibinitperiod}}}%
+        {{hash=d26a9178c774937e40b952e539093f2b}{%
+           family={Yusuf},
+           familyi={Y\bibinitperiod},
+           given={Noshin\bibnamedelima Wasim},
+           giveni={N\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=26048d9729d098ab98a87957c8f0fe37}{%
+           family={Aslam},
+           familyi={A\bibinitperiod},
+           given={Maleeha},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Professional Medical Publications}%
+      }
+      \strng{namehash}{89d40175e95aa2fd0b93292bd0c477b6}
+      \strng{fullhash}{0b4073d58a451a670de9a5e2b2f88b4e}
+      \strng{fullhashraw}{0b4073d58a451a670de9a5e2b2f88b4e}
+      \strng{bibnamehash}{0b4073d58a451a670de9a5e2b2f88b4e}
+      \strng{authorbibnamehash}{0b4073d58a451a670de9a5e2b2f88b4e}
+      \strng{authornamehash}{89d40175e95aa2fd0b93292bd0c477b6}
+      \strng{authorfullhash}{0b4073d58a451a670de9a5e2b2f88b4e}
+      \strng{authorfullhashraw}{0b4073d58a451a670de9a5e2b2f88b4e}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Pakistan journal of medical sciences}
+      \field{number}{1}
+      \field{title}{Rapid diagnosis of tuberculosis using Xpert MTB/RIF assay-Report from a developing country}
+      \field{volume}{31}
+      \field{year}{2015}
+      \field{pages}{105}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.12669/pjms.311.6970
+      \endverb
+    \endentry
+    \entry{rahman2016comparison}{article}{}{}
+      \name{author}{7}{}{%
+        {{hash=cc391083fd707c25215e199b42da633b}{%
+           family={Rahman},
+           familyi={R\bibinitperiod},
+           given={Aklima},
+           giveni={A\bibinitperiod}}}%
+        {{hash=eb599e4b0dde500769fffb4cc0a4193f}{%
+           family={Sahrin},
+           familyi={S\bibinitperiod},
+           given={Mahmudul},
+           giveni={M\bibinitperiod}}}%
+        {{hash=cf783bd88c2a72c4282ed2ee9871f4ba}{%
+           family={Afrin},
+           familyi={A\bibinitperiod},
+           given={Sharmin},
+           giveni={S\bibinitperiod}}}%
+        {{hash=935ceb26a220979c12ca8566339b250f}{%
+           family={Earley},
+           familyi={E\bibinitperiod},
+           given={Kathryne},
+           giveni={K\bibinitperiod}}}%
+        {{hash=3dc41255b553a0a079dae88f64db1fb6}{%
+           family={Ahmed},
+           familyi={A\bibinitperiod},
+           given={Sadia},
+           giveni={S\bibinitperiod}}}%
+        {{hash=f47a4e00c767dcff189acaf2b907aa21}{%
+           family={Rahman},
+           familyi={R\bibinitperiod},
+           given={Syed\bibnamedelima M},
+           giveni={S\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=13e246ac507f51d73683f633cc5cfce9}{%
+           family={Banu},
+           familyi={B\bibinitperiod},
+           given={Sayera},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{24f805aeeee28c15a1623629da259e05}
+      \strng{fullhash}{e761a4f4de58f294515ad08ce2032377}
+      \strng{fullhashraw}{e761a4f4de58f294515ad08ce2032377}
+      \strng{bibnamehash}{e761a4f4de58f294515ad08ce2032377}
+      \strng{authorbibnamehash}{e761a4f4de58f294515ad08ce2032377}
+      \strng{authornamehash}{24f805aeeee28c15a1623629da259e05}
+      \strng{authorfullhash}{e761a4f4de58f294515ad08ce2032377}
+      \strng{authorfullhashraw}{e761a4f4de58f294515ad08ce2032377}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{PLOS ONE}
+      \field{title}{Comparison of Xpert MTB/RIF assay and GenoType MTBDRplus DNA probes for detection of mutations associated with rifampicin resistance in Mycobacterium tuberculosis}
+      \field{volume}{11}
+      \field{year}{2016}
+      \field{pages}{e0152694}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1371/journal.pone.0152694
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1371/journal.pone.0152694
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1371/journal.pone.0152694
+      \endverb
+    \endentry
+    \entry{musser1995antimicrobial}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=569ab2be3291cfac5a5fe19776323e12}{%
+           family={Musser},
+           familyi={M\bibinitperiod},
+           given={James\bibnamedelima M.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{569ab2be3291cfac5a5fe19776323e12}
+      \strng{fullhash}{569ab2be3291cfac5a5fe19776323e12}
+      \strng{fullhashraw}{569ab2be3291cfac5a5fe19776323e12}
+      \strng{bibnamehash}{569ab2be3291cfac5a5fe19776323e12}
+      \strng{authorbibnamehash}{569ab2be3291cfac5a5fe19776323e12}
+      \strng{authornamehash}{569ab2be3291cfac5a5fe19776323e12}
+      \strng{authorfullhash}{569ab2be3291cfac5a5fe19776323e12}
+      \strng{authorfullhashraw}{569ab2be3291cfac5a5fe19776323e12}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Clinical Microbiology Reviews}
+      \field{number}{4}
+      \field{title}{Antimicrobial agent resistance in mycobacteria: molecular genetic insights}
+      \field{volume}{8}
+      \field{year}{1995}
+      \field{pages}{496\bibrangedash 514}
+      \range{pages}{19}
+      \verb{doi}
+      \verb 10.1128/CMR.8.4.496
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1128/CMR.8.4.496
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1128/CMR.8.4.496
+      \endverb
+    \endentry
+    \entry{mon2022first}{article}{}{}
+      \name{author}{8}{}{%
+        {{hash=760d382fb94fa33e52950ddf74d871e5}{%
+           family={Mon},
+           familyi={M\bibinitperiod},
+           given={Aung\bibnamedelima S.},
+           giveni={A\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=6a3e92a7421e4cd1d27b28bd3b25dd8e}{%
+           family={Ei},
+           familyi={E\bibinitperiod},
+           given={Phyu\bibnamedelima W.},
+           giveni={P\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=17b3644e7a570cfd427978947243488b}{%
+           family={Htwe},
+           familyi={H\bibinitperiod},
+           given={May\bibnamedelima M.},
+           giveni={M\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=916dff6fdac14d0213dc60b7506af8da}{%
+           family={Nyunt},
+           familyi={N\bibinitperiod},
+           given={Myo\bibnamedelima H.},
+           giveni={M\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=999472a6c6effda605deb8bddf929d9f}{%
+           family={Win},
+           familyi={W\bibinitperiod},
+           given={Swe\bibnamedelima M.},
+           giveni={S\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=5e4f0718bc4150d4a3a646248d3e630b}{%
+           family={Nyunt},
+           familyi={N\bibinitperiod},
+           given={Win\bibnamedelima W.},
+           giveni={W\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=294088dfd65760bac94bd49dba2f8b47}{%
+           family={Myint},
+           familyi={M\bibinitperiod},
+           given={Zaw},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=478c53bf22e892a8bf58afd717f50fb3}{%
+           family={Aung},
+           familyi={A\bibinitperiod},
+           given={Win\bibnamedelima W.},
+           giveni={W\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+      }
+      \strng{namehash}{6cf6a0eef52983c6070e7faacb8027f6}
+      \strng{fullhash}{35c7fec1621cdfc55ed6cf6a7e359970}
+      \strng{fullhashraw}{35c7fec1621cdfc55ed6cf6a7e359970}
+      \strng{bibnamehash}{35c7fec1621cdfc55ed6cf6a7e359970}
+      \strng{authorbibnamehash}{35c7fec1621cdfc55ed6cf6a7e359970}
+      \strng{authornamehash}{6cf6a0eef52983c6070e7faacb8027f6}
+      \strng{authorfullhash}{35c7fec1621cdfc55ed6cf6a7e359970}
+      \strng{authorfullhashraw}{35c7fec1621cdfc55ed6cf6a7e359970}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Antimicrobial Agents and Chemotherapy}
+      \field{month}{12}
+      \field{number}{12}
+      \field{title}{First Detection of Mycobacterium tuberculosis Clinical Isolates Harboring I491F Borderline Resistance rpoB Mutation in Myanmar}
+      \field{volume}{66}
+      \field{year}{2022}
+      \field{pages}{e0092522}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1128/aac.00925-22
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1128/aac.00925-22
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1128/aac.00925-22
+      \endverb
+    \endentry
+    \entry{marin2022benchmarking}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{10}{}{%
+        {{hash=5c6ad5dc03f1fe677199be5c0e82912e}{%
+           family={Marin},
+           familyi={M\bibinitperiod},
+           given={Maximillian},
+           giveni={M\bibinitperiod}}}%
+        {{hash=347cdcb960dd513eb39e8894ca1abecc}{%
+           family={Vargas\bibnamedelima Jr},
+           familyi={V\bibinitperiod\bibinitdelim J\bibinitperiod},
+           given={Roger},
+           giveni={R\bibinitperiod}}}%
+        {{hash=96078a88bb07844271df065b138cfd2b}{%
+           family={Harris},
+           familyi={H\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+        {{hash=2ef677daf88ae3186bc99a51d5253208}{%
+           family={Jeffrey},
+           familyi={J\bibinitperiod},
+           given={Brendan},
+           giveni={B\bibinitperiod}}}%
+        {{hash=4829d86e7637940b82910c4e1e211faa}{%
+           family={Epperson},
+           familyi={E\bibinitperiod},
+           given={L\bibnamedelima Elaine},
+           giveni={L\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=e9fbfe300df53f5cc81ec37b37fa04ba}{%
+           family={Durbin},
+           familyi={D\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+        {{hash=f462a3917aafb98616bc339ceb317d69}{%
+           family={Strong},
+           familyi={S\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+        {{hash=3c1b9f809effe7a8ea2c3fd63caa6836}{%
+           family={Salfinger},
+           familyi={S\bibinitperiod},
+           given={Max},
+           giveni={M\bibinitperiod}}}%
+        {{hash=917bd89718d2fc6f544271776c83dac9}{%
+           family={Iqbal},
+           familyi={I\bibinitperiod},
+           given={Zamin},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=7f78907df6b269d98c085017703530b3}{%
+           family={Akhundova},
+           familyi={A\bibinitperiod},
+           given={Irada},
+           giveni={I\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{9d2b5ea9f7f9dea4ccb817eec15f3a10}
+      \strng{fullhash}{2225adaf027eeaacd08041fc5cb8a894}
+      \strng{fullhashraw}{2225adaf027eeaacd08041fc5cb8a894}
+      \strng{bibnamehash}{2225adaf027eeaacd08041fc5cb8a894}
+      \strng{authorbibnamehash}{2225adaf027eeaacd08041fc5cb8a894}
+      \strng{authornamehash}{9d2b5ea9f7f9dea4ccb817eec15f3a10}
+      \strng{authorfullhash}{2225adaf027eeaacd08041fc5cb8a894}
+      \strng{authorfullhashraw}{2225adaf027eeaacd08041fc5cb8a894}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Bioinformatics}
+      \field{number}{7}
+      \field{title}{Benchmarking the empirical accuracy of short-read sequencing across the M. tuberculosis genome}
+      \field{volume}{38}
+      \field{year}{2022}
+      \field{pages}{1781\bibrangedash 1787}
+      \range{pages}{7}
+    \endentry
+    \entry{hall2023evaluation}{article}{}{}
+      \name{author}{15}{}{%
+        {{hash=d2dc24cb370999d486d4d8c3bda82bca}{%
+           family={Hall},
+           familyi={H\bibinitperiod},
+           given={Michael\bibnamedelima B.},
+           giveni={M\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=dade1b3907f60c06c8fb8cefe73f28d6}{%
+           family={Rabodoarivelo},
+           familyi={R\bibinitperiod},
+           given={Marie\bibnamedelima Sylvianne},
+           giveni={M\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=a8dbfb04728217b8aef612aec1bc07f6}{%
+           family={Koch},
+           familyi={K\bibinitperiod},
+           given={Anastasia},
+           giveni={A\bibinitperiod}}}%
+        {{hash=66c223f99ad1233dbd5eedc4d196554f}{%
+           family={Dippenaar},
+           familyi={D\bibinitperiod},
+           given={Anzaan},
+           giveni={A\bibinitperiod}}}%
+        {{hash=e485865abf7e46b15964330bcfc77b5d}{%
+           family={George},
+           familyi={G\bibinitperiod},
+           given={Sophie},
+           giveni={S\bibinitperiod}}}%
+        {{hash=33a9516704d04ec70c7348592cdb7a81}{%
+           family={Grobbelaar},
+           familyi={G\bibinitperiod},
+           given={Melanie},
+           giveni={M\bibinitperiod}}}%
+        {{hash=60485ddd2b3d08d3593463646c656756}{%
+           family={Warren},
+           familyi={W\bibinitperiod},
+           given={Robin},
+           giveni={R\bibinitperiod}}}%
+        {{hash=d0b1e4891d129295763216882a176d4d}{%
+           family={Walker},
+           familyi={W\bibinitperiod},
+           given={Timothy\bibnamedelima M.},
+           giveni={T\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=6ff3462fb22e973d7579b685a4cdfe9f}{%
+           family={Cox},
+           familyi={C\bibinitperiod},
+           given={Helen},
+           giveni={H\bibinitperiod}}}%
+        {{hash=f7126da4c7295b99cb73a5f0e5f1baed}{%
+           family={Gagneux},
+           familyi={G\bibinitperiod},
+           given={Sebastien},
+           giveni={S\bibinitperiod}}}%
+        {{hash=c997a4cb3cae04c0da0bf7c3816a80f6}{%
+           family={Crook},
+           familyi={C\bibinitperiod},
+           given={Derrick},
+           giveni={D\bibinitperiod}}}%
+        {{hash=45a64a6f138380f4be99a569c95944f2}{%
+           family={Peto},
+           familyi={P\bibinitperiod},
+           given={Tim},
+           giveni={T\bibinitperiod}}}%
+        {{hash=1b70c1023470546369a59c59e432c892}{%
+           family={Rakotosamimanana},
+           familyi={R\bibinitperiod},
+           given={Niaina},
+           giveni={N\bibinitperiod}}}%
+        {{hash=126c7ca18c38bd4d5d8efe682e6becb4}{%
+           family={Grandjean\bibnamedelima Lapierre},
+           familyi={G\bibinitperiod\bibinitdelim L\bibinitperiod},
+           given={Simon},
+           giveni={S\bibinitperiod}}}%
+        {{hash=917bd89718d2fc6f544271776c83dac9}{%
+           family={Iqbal},
+           familyi={I\bibinitperiod},
+           given={Zamin},
+           giveni={Z\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{ff293cb869fddf34b9c9ca62ba2fb1cd}
+      \strng{fullhash}{a7a2ea6ba8638cfb3174684e9788a0bb}
+      \strng{fullhashraw}{a7a2ea6ba8638cfb3174684e9788a0bb}
+      \strng{bibnamehash}{a7a2ea6ba8638cfb3174684e9788a0bb}
+      \strng{authorbibnamehash}{a7a2ea6ba8638cfb3174684e9788a0bb}
+      \strng{authornamehash}{ff293cb869fddf34b9c9ca62ba2fb1cd}
+      \strng{authorfullhash}{a7a2ea6ba8638cfb3174684e9788a0bb}
+      \strng{authorfullhashraw}{a7a2ea6ba8638cfb3174684e9788a0bb}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{2666-5247}
+      \field{journaltitle}{The Lancet Microbe}
+      \field{month}{2}
+      \field{number}{2}
+      \field{title}{Evaluation of Nanopore sequencing for \textit{Mycobacterium tuberculosis} drug susceptibility testing and outbreak investigation: a genomic analysis}
+      \field{volume}{4}
+      \field{year}{2023}
+      \field{pages}{e84\bibrangedash e92}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1016/S2666-5247(22)00301-9
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1016/S2666-5247(22)00301-9
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1016/S2666-5247(22)00301-9
+      \endverb
+    \endentry
+    \entry{smith2020assessing}{article}{}{}
+      \name{author}{8}{}{%
+        {{hash=2ee0d53d0651aa91bf0d2ed44e67776c}{%
+           family={Smith},
+           familyi={S\bibinitperiod},
+           given={Caitlin},
+           giveni={C\bibinitperiod}}}%
+        {{hash=5d6e21f55938c1fe71061b44eaddcc35}{%
+           family={Halse},
+           familyi={H\bibinitperiod},
+           given={Tiffany\bibnamedelima A.},
+           giveni={T\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=b703d05fd53467882220d4fc0d0266ff}{%
+           family={Shea},
+           familyi={S\bibinitperiod},
+           given={James},
+           giveni={J\bibinitperiod}}}%
+        {{hash=cfbd9ca4bc4fd17271776d5b206336b9}{%
+           family={Modestil},
+           familyi={M\bibinitperiod},
+           given={Heather},
+           giveni={H\bibinitperiod}}}%
+        {{hash=ba9b5aac3cb57ec5c2013caec973a8d0}{%
+           family={Fowler},
+           familyi={F\bibinitperiod},
+           given={Rebecca\bibnamedelima C.},
+           giveni={R\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=95a6c91e655000e8d0945401e7c71179}{%
+           family={Musser},
+           familyi={M\bibinitperiod},
+           given={Kathryn\bibnamedelima A.},
+           giveni={K\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=10390602c18ab60a99ce8d4961b0e7a4}{%
+           family={Escuyer},
+           familyi={E\bibinitperiod},
+           given={Vincent},
+           giveni={V\bibinitperiod}}}%
+        {{hash=5af67307e73902fa393e22239640eb23}{%
+           family={Lapierre},
+           familyi={L\bibinitperiod},
+           given={Pierre},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{55b2ec4e5d0c59d5f5c162ae48349218}
+      \strng{fullhash}{9e18552cd7f2d7c537149c761d86e6c9}
+      \strng{fullhashraw}{9e18552cd7f2d7c537149c761d86e6c9}
+      \strng{bibnamehash}{9e18552cd7f2d7c537149c761d86e6c9}
+      \strng{authorbibnamehash}{9e18552cd7f2d7c537149c761d86e6c9}
+      \strng{authornamehash}{55b2ec4e5d0c59d5f5c162ae48349218}
+      \strng{authorfullhash}{9e18552cd7f2d7c537149c761d86e6c9}
+      \strng{authorfullhashraw}{9e18552cd7f2d7c537149c761d86e6c9}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Clinical Microbiology}
+      \field{title}{Assessing Nanopore Sequencing for Clinical Diagnostics: a Comparison of Next-Generation Sequencing (NGS) Methods for \textit{Mycobacterium tuberculosis}}
+      \field{volume}{59}
+      \field{year}{2020}
+      \verb{doi}
+      \verb 10.1128/jcm.00583-20
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1128/jcm.00583-20
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1128/jcm.00583-20
+      \endverb
+    \endentry
+    \entry{meehan2018}{article}{}{}
+      \name{author}{6}{}{%
+        {{hash=c071e60f42982afbbdc68c063b3b551a}{%
+           family={Meehan},
+           familyi={M\bibinitperiod},
+           given={C.\bibnamedelimi J.},
+           giveni={C\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=0f410b83b85d5504c98aa7ad8dafe520}{%
+           family={Goig},
+           familyi={G\bibinitperiod},
+           given={G.\bibnamedelimi A.},
+           giveni={G\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=2e5af27d8afa88507ca5e6cd74d087c0}{%
+           family={Kohl},
+           familyi={K\bibinitperiod},
+           given={T.\bibnamedelimi A.},
+           giveni={T\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=50bc1426161ea1d07b5ccc5875644948}{%
+           family={Verboven},
+           familyi={V\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod}}}%
+        {{hash=55a811ca2934b5f46fc5173d5219d881}{%
+           family={Dippenaar},
+           familyi={D\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=0b2365102248764e026f90f7bce000c6}{%
+           family={Ezewudo},
+           familyi={E\bibinitperiod},
+           given={M.\bibnamedelimi et\bibnamedelima al.},
+           giveni={M\bibinitperiod\bibinitdelim e\bibinitperiod\bibinitdelim a\bibinitperiod}}}%
+      }
+      \strng{namehash}{fe5c65a10ad93a5818f992521de0e925}
+      \strng{fullhash}{c06fc61e9de07f71f797d8f1f8cdecf3}
+      \strng{fullhashraw}{c06fc61e9de07f71f797d8f1f8cdecf3}
+      \strng{bibnamehash}{c06fc61e9de07f71f797d8f1f8cdecf3}
+      \strng{authorbibnamehash}{c06fc61e9de07f71f797d8f1f8cdecf3}
+      \strng{authornamehash}{fe5c65a10ad93a5818f992521de0e925}
+      \strng{authorfullhash}{c06fc61e9de07f71f797d8f1f8cdecf3}
+      \strng{authorfullhashraw}{c06fc61e9de07f71f797d8f1f8cdecf3}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nat Rev Microbiol}
+      \field{month}{7}
+      \field{number}{9}
+      \field{title}{Whole genome sequencing of Mycobacterium tuberculosis: current standards and open issues}
+      \field{volume}{17}
+      \field{year}{2019}
+      \field{pages}{533\bibrangedash 45}
+      \range{pages}{13}
+    \endentry
+    \entry{walter2020genvar}{article}{}{}
+      \name{author}{11}{}{%
+        {{hash=71d676df1c0fadaf15bf07ba2ec26c0f}{%
+           family={Walter},
+           familyi={W\bibinitperiod},
+           given={Katharine\bibnamedelima S.},
+           giveni={K\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=97da9ae62011f75b0123cb1e2d4d11c6}{%
+           family={Colijn},
+           familyi={C\bibinitperiod},
+           given={Caroline},
+           giveni={C\bibinitperiod}}}%
+        {{hash=0037d93e669a421d8c56fd55a1dff30b}{%
+           family={Cohen},
+           familyi={C\bibinitperiod},
+           given={Ted},
+           giveni={T\bibinitperiod}}}%
+        {{hash=5e31a92e50f1f664ea860231888665eb}{%
+           family={Mathema},
+           familyi={M\bibinitperiod},
+           given={Barun},
+           giveni={B\bibinitperiod}}}%
+        {{hash=ddfa0c6394f522579936908bb8ef35ac}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Qingyun},
+           giveni={Q\bibinitperiod}}}%
+        {{hash=886af1a5f1c38eef88ec70ad61c12a15}{%
+           family={Bowers},
+           familyi={B\bibinitperiod},
+           given={Jolene},
+           giveni={J\bibinitperiod}}}%
+        {{hash=f2f858e489e3df0ad77725b8947db7f0}{%
+           family={Engelthaler},
+           familyi={E\bibinitperiod},
+           given={David\bibnamedelima M.},
+           giveni={D\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=8ce6f6da8df5e9a8271c7d85a2e19675}{%
+           family={Narechania},
+           familyi={N\bibinitperiod},
+           given={Apurva},
+           giveni={A\bibinitperiod}}}%
+        {{hash=3d70d6360c42c211a65153869af87ad0}{%
+           family={Lemmer},
+           familyi={L\bibinitperiod},
+           given={Darrin},
+           giveni={D\bibinitperiod}}}%
+        {{hash=414386ff450a504af9a6fe10e4d2b664}{%
+           family={Croda},
+           familyi={C\bibinitperiod},
+           given={Julio},
+           giveni={J\bibinitperiod}}}%
+        {{hash=e4e475256f513c3cb2d9d2dc3f4edcea}{%
+           family={Andrews},
+           familyi={A\bibinitperiod},
+           given={Jason\bibnamedelima R.},
+           giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Microbiology Society}%
+      }
+      \strng{namehash}{95c4299c59ef5c7ab2b358db1f4ce23e}
+      \strng{fullhash}{769a7e794b811e0dc1ef13171ba293b0}
+      \strng{fullhashraw}{769a7e794b811e0dc1ef13171ba293b0}
+      \strng{bibnamehash}{769a7e794b811e0dc1ef13171ba293b0}
+      \strng{authorbibnamehash}{769a7e794b811e0dc1ef13171ba293b0}
+      \strng{authornamehash}{95c4299c59ef5c7ab2b358db1f4ce23e}
+      \strng{authorfullhash}{769a7e794b811e0dc1ef13171ba293b0}
+      \strng{authorfullhashraw}{769a7e794b811e0dc1ef13171ba293b0}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Pathogen genomic data are increasingly used to characterize global and local transmission patterns of important human pathogens and to inform public health interventions. Yet, there is no current consensus on how to measure genomic variation. To test the effect of the variant-identification approach on transmission inferences for Mycobacterium tuberculosis, we conducted an experiment in which five genomic epidemiology groups applied variant-identification pipelines to the same outbreak sequence data. We compared the variants identified by each group in addition to transmission and phylogenetic inferences made with each variant set. To measure the performance of commonly used variant-identification tools, we simulated an outbreak. We compared the performance of three mapping algorithms, five variant callers and two variant filters in recovering true outbreak variants. Finally, we investigated the effect of applying increasingly stringent filters on transmission inferences and phylogenies. We found that variant-calling approaches used by different groups do not recover consistent sets of variants, which can lead to conflicting transmission inferences. Further, performance in recovering true variation varied widely across approaches. While no single variant-identification approach outperforms others in both recovering true genome-wide and outbreak-level variation, variant-identification algorithms calibrated upon real sequence data or that incorporate local reassembly outperform others in recovering true pairwise differences between isolates. The choice of variant filters contributed to extensive differences across pipelines, and applying increasingly stringent filters rapidly eroded the accuracy of transmission inferences and quality of phylogenies reconstructed from outbreak variation. Commonly used approaches to identify M. tuberculosis genomic variation have variable performance, particularly when predicting potential transmission links from pairwise genetic distances. Phylogenetic reconstruction may be improved by less stringent variant filtering. Approaches that improve variant identification in repetitive, hypervariable regions, such as long-read assemblies, may improve transmission inference.}
+      \field{eid}{e000418}
+      \field{issn}{2057-5858}
+      \field{journaltitle}{Microbial Genomics}
+      \field{number}{8}
+      \field{title}{Genomic variant-identification methods may alter Mycobacterium tuberculosis transmission inferences}
+      \field{type}{Journal Article}
+      \field{volume}{6}
+      \field{year}{2020}
+      \verb{doi}
+      \verb https://doi.org/10.1099/mgen.0.000418
+      \endverb
+      \verb{urlraw}
+      \verb https://www.microbiologyresearch.org/content/journal/mgen/10.1099/mgen.0.000418
+      \endverb
+      \verb{url}
+      \verb https://www.microbiologyresearch.org/content/journal/mgen/10.1099/mgen.0.000418
+      \endverb
+      \keyw{transmission}
+    \endentry
+    \entry{Walker2022}{article}{}{}
+      \name{author}{6}{}{%
+        {{hash=8dc96699187d5403d4b727b5e8ccb36b}{%
+           family={Walker},
+           familyi={W\bibinitperiod},
+           given={T.\bibnamedelimi M.},
+           giveni={T\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=2186225b596f2037b707026fe6227f3c}{%
+           family={Miotto},
+           familyi={M\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+        {{hash=a26d953478b7d69f1905cbab86dc888c}{%
+           family={Köser},
+           familyi={K\bibinitperiod},
+           given={C.\bibnamedelimi U.},
+           giveni={C\bibinitperiod\bibinitdelim U\bibinitperiod}}}%
+        {{hash=096b68af8b9f2da195a7da5549ef9244}{%
+           family={Fowler},
+           familyi={F\bibinitperiod},
+           given={P.\bibnamedelimi W.},
+           giveni={P\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=d2a366f0f90749e3fa1a481061cdbc3a}{%
+           family={Knaggs},
+           familyi={K\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=8bc486731e488b318ebaad2fea665d48}{%
+           family={Iqbal},
+           familyi={I\bibinitperiod},
+           given={Z.\bibnamedelimi et\bibnamedelima al.},
+           giveni={Z\bibinitperiod\bibinitdelim e\bibinitperiod\bibinitdelim a\bibinitperiod}}}%
+      }
+      \strng{namehash}{7578d8ca1f257b12fe35e6f1a239a398}
+      \strng{fullhash}{78de0f4ca75535037509de8ef08fe6c4}
+      \strng{fullhashraw}{78de0f4ca75535037509de8ef08fe6c4}
+      \strng{bibnamehash}{78de0f4ca75535037509de8ef08fe6c4}
+      \strng{authorbibnamehash}{78de0f4ca75535037509de8ef08fe6c4}
+      \strng{authornamehash}{7578d8ca1f257b12fe35e6f1a239a398}
+      \strng{authorfullhash}{78de0f4ca75535037509de8ef08fe6c4}
+      \strng{authorfullhashraw}{78de0f4ca75535037509de8ef08fe6c4}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Lancet Microbe}
+      \field{month}{4}
+      \field{number}{4}
+      \field{title}{The 2021 WHO catalogue of Mycobacterium tuberculosis complex mutations associated with drug resistance: a genotypic analysis}
+      \field{volume}{3}
+      \field{year}{2022}
+      \field{pages}{e265\bibrangedash 73}
+      \range{pages}{-1}
+    \endentry
+    \entry{WHOcatalog}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=531217507bec092b6ec36c0f78f46736}{%
+           family={{World Health Organization}},
+           familyi={W\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {World Health Organization}%
+      }
+      \strng{namehash}{531217507bec092b6ec36c0f78f46736}
+      \strng{fullhash}{531217507bec092b6ec36c0f78f46736}
+      \strng{fullhashraw}{531217507bec092b6ec36c0f78f46736}
+      \strng{bibnamehash}{531217507bec092b6ec36c0f78f46736}
+      \strng{authorbibnamehash}{531217507bec092b6ec36c0f78f46736}
+      \strng{authornamehash}{531217507bec092b6ec36c0f78f46736}
+      \strng{authorfullhash}{531217507bec092b6ec36c0f78f46736}
+      \strng{authorfullhashraw}{531217507bec092b6ec36c0f78f46736}
+      \field{extraname}{5}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{2nd ed.}
+      \field{title}{Catalogue of mutations in Mycobacterium tuberculosis complex and their association with drug resistance}
+      \field{year}{2023}
+    \endentry
+    \entry{dean202225}{article}{}{}
+      \name{author}{7}{}{%
+        {{hash=51bd91477582b83d73312b86b16d610b}{%
+           family={Dean},
+           familyi={D\bibinitperiod},
+           given={Anna\bibnamedelima S},
+           giveni={A\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=f10fd4215da6419c5312469c0f302038}{%
+           family={Auguet},
+           familyi={A\bibinitperiod},
+           given={Olga\bibnamedelima Tosas},
+           giveni={O\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=a3ad27efa87531942ac3b5b0634adae7}{%
+           family={Glaziou},
+           familyi={G\bibinitperiod},
+           given={Philippe},
+           giveni={P\bibinitperiod}}}%
+        {{hash=74bc374892fd7140d822db6a55c4e1e6}{%
+           family={Zignol},
+           familyi={Z\bibinitperiod},
+           given={Matteo},
+           giveni={M\bibinitperiod}}}%
+        {{hash=48961b7e7bf6521c9bbd0d11ee74ac88}{%
+           family={Ismail},
+           familyi={I\bibinitperiod},
+           given={Nazir},
+           giveni={N\bibinitperiod}}}%
+        {{hash=93556bbbbbee6cfa48b9fcd8fae8b077}{%
+           family={Kasaeva},
+           familyi={K\bibinitperiod},
+           given={Tereza},
+           giveni={T\bibinitperiod}}}%
+        {{hash=81c134959719a4aefcbfc1cbe31a1094}{%
+           family={Floyd},
+           familyi={F\bibinitperiod},
+           given={Katherine},
+           giveni={K\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{113c4a34b89d6d659d1d61e7ef75c1a0}
+      \strng{fullhash}{7d8793b13ea8ae5d39c98ace297cf97b}
+      \strng{fullhashraw}{7d8793b13ea8ae5d39c98ace297cf97b}
+      \strng{bibnamehash}{7d8793b13ea8ae5d39c98ace297cf97b}
+      \strng{authorbibnamehash}{7d8793b13ea8ae5d39c98ace297cf97b}
+      \strng{authornamehash}{113c4a34b89d6d659d1d61e7ef75c1a0}
+      \strng{authorfullhash}{7d8793b13ea8ae5d39c98ace297cf97b}
+      \strng{authorfullhashraw}{7d8793b13ea8ae5d39c98ace297cf97b}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Lancet Infectious Diseases}
+      \field{number}{7}
+      \field{title}{25 years of surveillance of drug-resistant tuberculosis: achievements, challenges, and way forward}
+      \field{volume}{22}
+      \field{year}{2022}
+      \field{pages}{e191\bibrangedash e196}
+      \range{pages}{-1}
+    \endentry
+    \entry{world2018use}{report}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{hash=8179b1fdebe9235e54501d2878c47e1b}{%
+           family={Organization},
+           familyi={O\bibinitperiod},
+           given={World\bibnamedelima Health},
+           giveni={W\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {World Health Organization}%
+      }
+      \strng{namehash}{b34697b55e931105852323b3db93732d}
+      \strng{fullhash}{b34697b55e931105852323b3db93732d}
+      \strng{fullhashraw}{b34697b55e931105852323b3db93732d}
+      \strng{bibnamehash}{b34697b55e931105852323b3db93732d}
+      \strng{authorbibnamehash}{b34697b55e931105852323b3db93732d}
+      \strng{authornamehash}{b34697b55e931105852323b3db93732d}
+      \strng{authorfullhash}{b34697b55e931105852323b3db93732d}
+      \strng{authorfullhashraw}{b34697b55e931105852323b3db93732d}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The use of next-generation sequencing technologies for the detection of mutations associated with drug resistance in Mycobacterium tuberculosis complex: technical guide}
+      \field{type}{techreport}
+      \field{year}{2018}
+    \endentry
+    \entry{inzaule2021genomic}{article}{}{}
+      \name{author}{5}{}{%
+        {{hash=310adcd913c8aaedb24f71173bc937e5}{%
+           family={Inzaule},
+           familyi={I\bibinitperiod},
+           given={Seth\bibnamedelima C},
+           giveni={S\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=bc17dab496ee4e263c5d9536d49d6b1a}{%
+           family={Tessema},
+           familyi={T\bibinitperiod},
+           given={Sofonias\bibnamedelima K},
+           giveni={S\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=2ed56be654e1318409c6da20ec8f0416}{%
+           family={Kebede},
+           familyi={K\bibinitperiod},
+           given={Yenew},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=94a14e85a39a54b0cbfa6988fb276276}{%
+           family={Ouma},
+           familyi={O\bibinitperiod},
+           given={Ahmed\bibnamedelimb E\bibnamedelima Ogwell},
+           giveni={A\bibinitperiod\bibinitdelim E\bibinitperiod\bibinitdelim O\bibinitperiod}}}%
+        {{hash=79704dd852318cf56e58eca4fb9566eb}{%
+           family={Nkengasong},
+           familyi={N\bibinitperiod},
+           given={John\bibnamedelima N},
+           giveni={J\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{624fc67ec0f61ec36095a01983991692}
+      \strng{fullhash}{92eb4b91c81edf16d2046b7b0549b100}
+      \strng{fullhashraw}{92eb4b91c81edf16d2046b7b0549b100}
+      \strng{bibnamehash}{92eb4b91c81edf16d2046b7b0549b100}
+      \strng{authorbibnamehash}{92eb4b91c81edf16d2046b7b0549b100}
+      \strng{authornamehash}{624fc67ec0f61ec36095a01983991692}
+      \strng{authorfullhash}{92eb4b91c81edf16d2046b7b0549b100}
+      \strng{authorfullhashraw}{92eb4b91c81edf16d2046b7b0549b100}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Lancet Infectious Diseases}
+      \field{number}{9}
+      \field{title}{Genomic-informed pathogen surveillance in Africa: opportunities and challenges}
+      \field{volume}{21}
+      \field{year}{2021}
+      \field{pages}{e281\bibrangedash e289}
+      \range{pages}{-1}
+    \endentry
+    \entry{modlin2021exact}{article}{}{}
+      \name{author}{7}{}{%
+        {{hash=9843a16890376ca488cddcb05041c4ae}{%
+           family={Modlin},
+           familyi={M\bibinitperiod},
+           given={Samuel\bibnamedelima J},
+           giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=a967fd7f85d895808ed74a38570eb01c}{%
+           family={Robinhold},
+           familyi={R\bibinitperiod},
+           given={Cassidy},
+           giveni={C\bibinitperiod}}}%
+        {{hash=493e7620f35e0116415f21eeae8c91b5}{%
+           family={Morrissey},
+           familyi={M\bibinitperiod},
+           given={Christopher},
+           giveni={C\bibinitperiod}}}%
+        {{hash=3300f4a933a858caf6fb2776995e2da9}{%
+           family={Mitchell},
+           familyi={M\bibinitperiod},
+           given={Scott\bibnamedelima N},
+           giveni={S\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+        {{hash=76a950845312cf3a522a1049b2313cee}{%
+           family={Ramirez-Busby},
+           familyi={R\bibinithyphendelim B\bibinitperiod},
+           given={Sarah\bibnamedelima M},
+           giveni={S\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=cf8065930d848572645a12f39e88e6fd}{%
+           family={Shmaya},
+           familyi={S\bibinitperiod},
+           given={Tal},
+           giveni={T\bibinitperiod}}}%
+        {{hash=fc2462530adc4adde408a218d9e624aa}{%
+           family={Valafar},
+           familyi={V\bibinitperiod},
+           given={Faramarz},
+           giveni={F\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Microbiology Society}%
+      }
+      \strng{namehash}{8bcb0e3cdc114cb84d67dc6dda0b0f0c}
+      \strng{fullhash}{3d1dc8fca558a805da21e949674ae33b}
+      \strng{fullhashraw}{3d1dc8fca558a805da21e949674ae33b}
+      \strng{bibnamehash}{3d1dc8fca558a805da21e949674ae33b}
+      \strng{authorbibnamehash}{3d1dc8fca558a805da21e949674ae33b}
+      \strng{authornamehash}{8bcb0e3cdc114cb84d67dc6dda0b0f0c}
+      \strng{authorfullhash}{3d1dc8fca558a805da21e949674ae33b}
+      \strng{authorfullhashraw}{3d1dc8fca558a805da21e949674ae33b}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Microbial Genomics}
+      \field{number}{3}
+      \field{title}{Exact mapping of Illumina blind spots in the Mycobacterium tuberculosis genome reveals platform-wide and workflow-specific biases}
+      \field{volume}{7}
+      \field{year}{2021}
+      \field{pages}{000465}
+      \range{pages}{1}
+    \endentry
+    \entry{li2008mapping}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=466d90849ccf7e74e32d338b7c35491d}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Heng},
+           giveni={H\bibinitperiod}}}%
+        {{hash=c42a336d28e60e0158ab76e19b82bc1e}{%
+           family={Ruan},
+           familyi={R\bibinitperiod},
+           given={Jue},
+           giveni={J\bibinitperiod}}}%
+        {{hash=517afe729b2eb59735ba80628d943bb0}{%
+           family={Durbin},
+           familyi={D\bibinitperiod},
+           given={Richard},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Cold Spring Harbor Lab}%
+      }
+      \strng{namehash}{fc12288244285ea2ec7093c29eb701e3}
+      \strng{fullhash}{fc12288244285ea2ec7093c29eb701e3}
+      \strng{fullhashraw}{fc12288244285ea2ec7093c29eb701e3}
+      \strng{bibnamehash}{fc12288244285ea2ec7093c29eb701e3}
+      \strng{authorbibnamehash}{fc12288244285ea2ec7093c29eb701e3}
+      \strng{authornamehash}{fc12288244285ea2ec7093c29eb701e3}
+      \strng{authorfullhash}{fc12288244285ea2ec7093c29eb701e3}
+      \strng{authorfullhashraw}{fc12288244285ea2ec7093c29eb701e3}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Genome research}
+      \field{number}{11}
+      \field{title}{Mapping short DNA sequencing reads and calling variants using mapping quality scores}
+      \field{volume}{18}
+      \field{year}{2008}
+      \field{pages}{1851\bibrangedash 1858}
+      \range{pages}{8}
+    \endentry
+    \entry{li2014toward}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=466d90849ccf7e74e32d338b7c35491d}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Heng},
+           giveni={H\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{466d90849ccf7e74e32d338b7c35491d}
+      \strng{fullhash}{466d90849ccf7e74e32d338b7c35491d}
+      \strng{fullhashraw}{466d90849ccf7e74e32d338b7c35491d}
+      \strng{bibnamehash}{466d90849ccf7e74e32d338b7c35491d}
+      \strng{authorbibnamehash}{466d90849ccf7e74e32d338b7c35491d}
+      \strng{authornamehash}{466d90849ccf7e74e32d338b7c35491d}
+      \strng{authorfullhash}{466d90849ccf7e74e32d338b7c35491d}
+      \strng{authorfullhashraw}{466d90849ccf7e74e32d338b7c35491d}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Bioinformatics}
+      \field{number}{20}
+      \field{title}{Toward better understanding of artifacts in variant calling from high-coverage samples}
+      \field{volume}{30}
+      \field{year}{2014}
+      \field{pages}{2843\bibrangedash 2851}
+      \range{pages}{9}
+    \endentry
+    \entry{d2023pe}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=f246de258060fa320a2f479aaaeac172}{%
+           family={D'Souza},
+           familyi={D\bibinitperiod},
+           given={Christopher},
+           giveni={C\bibinitperiod}}}%
+        {{hash=f7efac5f932957c9b561487cc3094e3c}{%
+           family={Kishore},
+           familyi={K\bibinitperiod},
+           given={Uday},
+           giveni={U\bibinitperiod}}}%
+        {{hash=dd00d85a59287a455bee91c102298fa9}{%
+           family={Tsolaki},
+           familyi={T\bibinitperiod},
+           given={Anthony\bibnamedelima G},
+           giveni={A\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{b874bbc290a1723c67cb575fa217b10a}
+      \strng{fullhash}{b874bbc290a1723c67cb575fa217b10a}
+      \strng{fullhashraw}{b874bbc290a1723c67cb575fa217b10a}
+      \strng{bibnamehash}{b874bbc290a1723c67cb575fa217b10a}
+      \strng{authorbibnamehash}{b874bbc290a1723c67cb575fa217b10a}
+      \strng{authornamehash}{b874bbc290a1723c67cb575fa217b10a}
+      \strng{authorfullhash}{b874bbc290a1723c67cb575fa217b10a}
+      \strng{authorfullhashraw}{b874bbc290a1723c67cb575fa217b10a}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Immunobiology}
+      \field{number}{2}
+      \field{title}{The PE-PPE family of Mycobacterium tuberculosis: proteins in disguise}
+      \field{volume}{228}
+      \field{year}{2023}
+      \field{pages}{152321}
+      \range{pages}{1}
+    \endentry
+    \entry{de2019immune}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=88fbe26977486ea2dabcb3545f40c37c}{%
+           family={De\bibnamedelima Martino},
+           familyi={D\bibinitperiod\bibinitdelim M\bibinitperiod},
+           given={Maurizio},
+           giveni={M\bibinitperiod}}}%
+        {{hash=af9c23fa5dcd0f634ae371f8d20d24e5}{%
+           family={Lodi},
+           familyi={L\bibinitperiod},
+           given={Lorenzo},
+           giveni={L\bibinitperiod}}}%
+        {{hash=fd7e155aab75a265c30bdcc8bf14b15a}{%
+           family={Galli},
+           familyi={G\bibinitperiod},
+           given={Luisa},
+           giveni={L\bibinitperiod}}}%
+        {{hash=7ea6232aeb9b223e888cc83c6978bf4d}{%
+           family={Chiappini},
+           familyi={C\bibinitperiod},
+           given={Elena},
+           giveni={E\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Frontiers Media SA}%
+      }
+      \strng{namehash}{c4f5f7ce352f4cb38ec1d7cbe49ece6d}
+      \strng{fullhash}{423d4e3cd9f56192a1af64f67cb674fb}
+      \strng{fullhashraw}{423d4e3cd9f56192a1af64f67cb674fb}
+      \strng{bibnamehash}{423d4e3cd9f56192a1af64f67cb674fb}
+      \strng{authorbibnamehash}{423d4e3cd9f56192a1af64f67cb674fb}
+      \strng{authornamehash}{c4f5f7ce352f4cb38ec1d7cbe49ece6d}
+      \strng{authorfullhash}{423d4e3cd9f56192a1af64f67cb674fb}
+      \strng{authorfullhashraw}{423d4e3cd9f56192a1af64f67cb674fb}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Frontiers in pediatrics}
+      \field{title}{Immune response to Mycobacterium tuberculosis: a narrative review}
+      \field{volume}{7}
+      \field{year}{2019}
+      \field{pages}{350}
+      \range{pages}{1}
+    \endentry
+    \entry{tundup2006clusters}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=758b2d9d99a17325199c0227972e9a32}{%
+           family={Tundup},
+           familyi={T\bibinitperiod},
+           given={Smanla},
+           giveni={S\bibinitperiod}}}%
+        {{hash=d41e18439ec53918b89c2ee976e0ec36}{%
+           family={Akhter},
+           familyi={A\bibinitperiod},
+           given={Yusuf},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=d197c2b32b578a2093ba31668bf96b1d}{%
+           family={Thiagarajan},
+           familyi={T\bibinitperiod},
+           given={Dorairajan},
+           giveni={D\bibinitperiod}}}%
+        {{hash=0e99e0e492876643530aef357448d038}{%
+           family={Hasnain},
+           familyi={H\bibinitperiod},
+           given={Seyed\bibnamedelima E},
+           giveni={S\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{7dea15f6213d51c23af61ebdd2fb70a9}
+      \strng{fullhash}{f40949511284b6f44eb926247ae65229}
+      \strng{fullhashraw}{f40949511284b6f44eb926247ae65229}
+      \strng{bibnamehash}{f40949511284b6f44eb926247ae65229}
+      \strng{authorbibnamehash}{f40949511284b6f44eb926247ae65229}
+      \strng{authornamehash}{7dea15f6213d51c23af61ebdd2fb70a9}
+      \strng{authorfullhash}{f40949511284b6f44eb926247ae65229}
+      \strng{authorfullhashraw}{f40949511284b6f44eb926247ae65229}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{FEBS letters}
+      \field{number}{5}
+      \field{title}{Clusters of PE and PPE genes of Mycobacterium tuberculosis are organized in operons: evidence that PE Rv2431c is co-transcribed with PPE Rv2430c and their gene products interact with each other}
+      \field{volume}{580}
+      \field{year}{2006}
+      \field{pages}{1285\bibrangedash 1293}
+      \range{pages}{9}
+    \endentry
+    \entry{gey2006evolution}{article}{}{}
+      \name{author}{6}{}{%
+        {{hash=d722a6c846be02ee98157308b76e393d}{%
+           family={Gey\bibnamedelimb van\bibnamedelima Pittius},
+           familyi={G\bibinitperiod\bibinitdelim v\bibinitperiod\bibinitdelim P\bibinitperiod},
+           given={Nicolaas\bibnamedelima C},
+           giveni={N\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=2eb91a51c23d03984abdb6f445c74372}{%
+           family={Sampson},
+           familyi={S\bibinitperiod},
+           given={Samantha\bibnamedelima L},
+           giveni={S\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=f1106d22ad0060ebaaf0f8b133b55f04}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Hyeyoung},
+           giveni={H\bibinitperiod}}}%
+        {{hash=7b06f5479070260151bf1f1b4fae459c}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Yeun},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=4e76a1b3d03a52b8c6ba70a95dce4280}{%
+           family={Van\bibnamedelima Helden},
+           familyi={V\bibinitperiod\bibinitdelim H\bibinitperiod},
+           given={Paul\bibnamedelima D},
+           giveni={P\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=13124f3a9c9bdf0bfb1f5dfd4f4e8429}{%
+           family={Warren},
+           familyi={W\bibinitperiod},
+           given={Robin\bibnamedelima M},
+           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{cd2beb0c9e247ece2dbd23cb842e204c}
+      \strng{fullhash}{e8a216df30312a39f7b94f7806f0ccc7}
+      \strng{fullhashraw}{e8a216df30312a39f7b94f7806f0ccc7}
+      \strng{bibnamehash}{e8a216df30312a39f7b94f7806f0ccc7}
+      \strng{authorbibnamehash}{e8a216df30312a39f7b94f7806f0ccc7}
+      \strng{authornamehash}{cd2beb0c9e247ece2dbd23cb842e204c}
+      \strng{authorfullhash}{e8a216df30312a39f7b94f7806f0ccc7}
+      \strng{authorfullhashraw}{e8a216df30312a39f7b94f7806f0ccc7}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{BMC evolutionary biology}
+      \field{title}{Evolution and expansion of the Mycobacterium tuberculosis PE and PPE multigene families and their association with the duplication of the ESAT-6 (esx) gene cluster regions}
+      \field{volume}{6}
+      \field{year}{2006}
+      \field{pages}{1\bibrangedash 31}
+      \range{pages}{31}
+    \endentry
+    \entry{daleke2012general}{article}{}{}
+      \name{author}{7}{}{%
+        {{hash=cc3dc3a43f0d15d4f4898d59b329bd9f}{%
+           family={Daleke},
+           familyi={D\bibinitperiod},
+           given={Maria\bibnamedelima H},
+           giveni={M\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=60e67a185c6a233b5f35957b5374e3bd}{%
+           family={Ummels},
+           familyi={U\bibinitperiod},
+           given={Roy},
+           giveni={R\bibinitperiod}}}%
+        {{hash=1f6f12c8950e42233e5cbda0d3940cf4}{%
+           family={Bawono},
+           familyi={B\bibinitperiod},
+           given={Punto},
+           giveni={P\bibinitperiod}}}%
+        {{hash=a0f707f5c85369ff12d6de8401c06be8}{%
+           family={Heringa},
+           familyi={H\bibinitperiod},
+           given={Jaap},
+           giveni={J\bibinitperiod}}}%
+        {{hash=0ca05783a4367b2496a96ae481368ac3}{%
+           family={Vandenbroucke-Grauls},
+           familyi={V\bibinithyphendelim G\bibinitperiod},
+           given={Christina\bibnamedelima MJE},
+           giveni={C\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=c5297b81533235c96df064e335411394}{%
+           family={Luirink},
+           familyi={L\bibinitperiod},
+           given={Joen},
+           giveni={J\bibinitperiod}}}%
+        {{hash=f40867f1119e14978075f352d062ecdf}{%
+           family={Bitter},
+           familyi={B\bibinitperiod},
+           given={Wilbert},
+           giveni={W\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {National Acad Sciences}%
+      }
+      \strng{namehash}{b5e04bb66a8d4ba8b057cbba0081cc40}
+      \strng{fullhash}{84af8ebf563ab1b0f8de94d736514315}
+      \strng{fullhashraw}{84af8ebf563ab1b0f8de94d736514315}
+      \strng{bibnamehash}{84af8ebf563ab1b0f8de94d736514315}
+      \strng{authorbibnamehash}{84af8ebf563ab1b0f8de94d736514315}
+      \strng{authornamehash}{b5e04bb66a8d4ba8b057cbba0081cc40}
+      \strng{authorfullhash}{84af8ebf563ab1b0f8de94d736514315}
+      \strng{authorfullhashraw}{84af8ebf563ab1b0f8de94d736514315}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proceedings of the National Academy of Sciences}
+      \field{number}{28}
+      \field{title}{General secretion signal for the mycobacterial type VII secretion pathway}
+      \field{volume}{109}
+      \field{year}{2012}
+      \field{pages}{11342\bibrangedash 11347}
+      \range{pages}{6}
+    \endentry
+    \entry{hermans1992characterization}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=a111b14bbab28f317190beca516b3735}{%
+           family={Hermans},
+           familyi={H\bibinitperiod},
+           given={PW},
+           giveni={P\bibinitperiod}}}%
+        {{hash=7f393b3a3ad4a25b91b0ff5e9a18e6db}{%
+           family={Soolingen},
+           familyi={S\bibinitperiod},
+           given={DICK},
+           giveni={D\bibinitperiod},
+           prefix={van},
+           prefixi={v\bibinitperiod}}}%
+        {{hash=bf6d1ad899cd98d4a0a0f2ab82839282}{%
+           family={Van\bibnamedelima Embden},
+           familyi={V\bibinitperiod\bibinitdelim E\bibinitperiod},
+           given={JD},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Am Soc Microbiol}%
+      }
+      \strng{namehash}{fb45f0e02dc8136dac76d28866b7e4fb}
+      \strng{fullhash}{fb45f0e02dc8136dac76d28866b7e4fb}
+      \strng{fullhashraw}{fb45f0e02dc8136dac76d28866b7e4fb}
+      \strng{bibnamehash}{fb45f0e02dc8136dac76d28866b7e4fb}
+      \strng{authorbibnamehash}{fb45f0e02dc8136dac76d28866b7e4fb}
+      \strng{authornamehash}{fb45f0e02dc8136dac76d28866b7e4fb}
+      \strng{authorfullhash}{fb45f0e02dc8136dac76d28866b7e4fb}
+      \strng{authorfullhashraw}{fb45f0e02dc8136dac76d28866b7e4fb}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of bacteriology}
+      \field{number}{12}
+      \field{title}{Characterization of a major polymorphic tandem repeat in Mycobacterium tuberculosis and its potential use in the epidemiology of Mycobacterium kansasii and Mycobacterium gordonae}
+      \field{volume}{174}
+      \field{year}{1992}
+      \field{pages}{4157\bibrangedash 4165}
+      \range{pages}{9}
+    \endentry
+    \entry{cui2016bioinformatics}{article}{}{}
+      \name{author}{5}{}{%
+        {{hash=03a8dfd8036fa78d0778b0ee1494c86c}{%
+           family={Cui},
+           familyi={C\bibinitperiod},
+           given={Ze-Jia},
+           giveni={Z\bibinithyphendelim J\bibinitperiod}}}%
+        {{hash=cf8713ae3797a7a22d15559083998ddb}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Qing-Yong},
+           giveni={Q\bibinithyphendelim Y\bibinitperiod}}}%
+        {{hash=89317373ba3b1c323c33446e9c2dee13}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Hong-Yu},
+           giveni={H\bibinithyphendelim Y\bibinitperiod}}}%
+        {{hash=d9fa159bfff46823e381d8d81607e387}{%
+           family={Zhu},
+           familyi={Z\bibinitperiod},
+           given={Qiang},
+           giveni={Q\bibinitperiod}}}%
+        {{hash=23818bdf7ef430d850f4171de10116ff}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Qing-Ye},
+           giveni={Q\bibinithyphendelim Y\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {MDPI}%
+      }
+      \strng{namehash}{3d84a5b2efa81b60ef91a0510e2c2867}
+      \strng{fullhash}{8e936414ff878febbaabacfc413050a5}
+      \strng{fullhashraw}{8e936414ff878febbaabacfc413050a5}
+      \strng{bibnamehash}{8e936414ff878febbaabacfc413050a5}
+      \strng{authorbibnamehash}{8e936414ff878febbaabacfc413050a5}
+      \strng{authornamehash}{3d84a5b2efa81b60ef91a0510e2c2867}
+      \strng{authorfullhash}{8e936414ff878febbaabacfc413050a5}
+      \strng{authorfullhashraw}{8e936414ff878febbaabacfc413050a5}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International journal of molecular sciences}
+      \field{number}{9}
+      \field{title}{Bioinformatics identification of drug resistance-associated gene pairs in Mycobacterium tuberculosis}
+      \field{volume}{17}
+      \field{year}{2016}
+      \field{pages}{1417}
+      \range{pages}{1}
+    \endentry
+    \entry{kanji2015characterization}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{10}{}{%
+        {{hash=61473953a6a65c5eafbe8cd6ea8dd41b}{%
+           family={Kanji},
+           familyi={K\bibinitperiod},
+           given={Akbar},
+           giveni={A\bibinitperiod}}}%
+        {{hash=d5cc4c768df6123aad95ec2ff137e393}{%
+           family={Hasan},
+           familyi={H\bibinitperiod},
+           given={Zahra},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=2c3ee051a0b376274ddb26a47447679e}{%
+           family={Ali},
+           familyi={A\bibinitperiod},
+           given={Asho},
+           giveni={A\bibinitperiod}}}%
+        {{hash=212d4400b26105e36315876e499f6068}{%
+           family={McNerney},
+           familyi={M\bibinitperiod},
+           given={Ruth},
+           giveni={R\bibinitperiod}}}%
+        {{hash=ffaf8d88cdbf85e02268c982eeb4e5e6}{%
+           family={Mallard},
+           familyi={M\bibinitperiod},
+           given={Kim},
+           giveni={K\bibinitperiod}}}%
+        {{hash=f226ddc0f594c630394b44548904412c}{%
+           family={Coll},
+           familyi={C\bibinitperiod},
+           given={Francesc},
+           giveni={F\bibinitperiod}}}%
+        {{hash=9d79f407f0f921f12ec34fa4ddc16c0e}{%
+           family={Hill-Cawthorne},
+           familyi={H\bibinithyphendelim C\bibinitperiod},
+           given={Grant},
+           giveni={G\bibinitperiod}}}%
+        {{hash=60378fca8d72789547ecf2055a630d03}{%
+           family={Nair},
+           familyi={N\bibinitperiod},
+           given={Mridul},
+           giveni={M\bibinitperiod}}}%
+        {{hash=5f9bdbcd61dd332f246d64d1164dba86}{%
+           family={Clark},
+           familyi={C\bibinitperiod},
+           given={Taane\bibnamedelima G},
+           giveni={T\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=5f74917e16635b949091af9519ce08ff}{%
+           family={Zaver},
+           familyi={Z\bibinitperiod},
+           given={Ambreen},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Medknow}%
+      }
+      \strng{namehash}{ef5a9687c2172f489c3573abb817bc37}
+      \strng{fullhash}{0aaefb2c2bb54752d615d5bc271f34c4}
+      \strng{fullhashraw}{0aaefb2c2bb54752d615d5bc271f34c4}
+      \strng{bibnamehash}{0aaefb2c2bb54752d615d5bc271f34c4}
+      \strng{authorbibnamehash}{0aaefb2c2bb54752d615d5bc271f34c4}
+      \strng{authornamehash}{ef5a9687c2172f489c3573abb817bc37}
+      \strng{authorfullhash}{0aaefb2c2bb54752d615d5bc271f34c4}
+      \strng{authorfullhashraw}{0aaefb2c2bb54752d615d5bc271f34c4}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The International Journal of Mycobacteriology}
+      \field{number}{1}
+      \field{title}{Characterization of genomic variations in SNPs of PE\_PGRS genes reveals deletions and insertions in extensively drug resistant (XDR) M. tuberculosis strains from Pakistan}
+      \field{volume}{4}
+      \field{year}{2015}
+      \field{pages}{73\bibrangedash 79}
+      \range{pages}{7}
+    \endentry
+    \entry{hang2019whole}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{10}{}{%
+        {{hash=fc9bda29c1a3b38c81ac8c41f11922ee}{%
+           family={Hang},
+           familyi={H\bibinitperiod},
+           given={Nguyen\bibnamedelimb Thi\bibnamedelima Le},
+           giveni={N\bibinitperiod\bibinitdelim T\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=d5eb6b9f898adb84961f2166ca1ac7a6}{%
+           family={Hijikata},
+           familyi={H\bibinitperiod},
+           given={Minako},
+           giveni={M\bibinitperiod}}}%
+        {{hash=a986880d0316712e3e7bb1a2a83e8a58}{%
+           family={Maeda},
+           familyi={M\bibinitperiod},
+           given={Shinji},
+           giveni={S\bibinitperiod}}}%
+        {{hash=e4b3588b06d369ffa6779ecd773eee71}{%
+           family={Thuong},
+           familyi={T\bibinitperiod},
+           given={Pham\bibnamedelima Huu},
+           giveni={P\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=020f17c39d5b845e16c806cadf04ae96}{%
+           family={Ohashi},
+           familyi={O\bibinitperiod},
+           given={Jun},
+           giveni={J\bibinitperiod}}}%
+        {{hash=e724a452e86047eee056f90d4f24251e}{%
+           family={Van\bibnamedelima Huan},
+           familyi={V\bibinitperiod\bibinitdelim H\bibinitperiod},
+           given={Hoang},
+           giveni={H\bibinitperiod}}}%
+        {{hash=5a8a2810c0cb781f46dd3b3bdacaff6b}{%
+           family={Hoang},
+           familyi={H\bibinitperiod},
+           given={Nguyen\bibnamedelima Phuong},
+           giveni={N\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=d25b56e608f8268327accb2c1072a346}{%
+           family={Miyabayashi},
+           familyi={M\bibinitperiod},
+           given={Akiko},
+           giveni={A\bibinitperiod}}}%
+        {{hash=5552149b6295ef5a5f90a0f3b929534c}{%
+           family={Cuong},
+           familyi={C\bibinitperiod},
+           given={Vu\bibnamedelima Cao},
+           giveni={V\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=0408c788f4a637129a844a8bcb8a65d4}{%
+           family={Seto},
+           familyi={S\bibinitperiod},
+           given={Shintaro},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Nature Publishing Group UK London}%
+      }
+      \strng{namehash}{5eaaf6db6f9e4146a92007bb52d899d1}
+      \strng{fullhash}{475e5edfc24d2c26a9bad72a36fca4b4}
+      \strng{fullhashraw}{475e5edfc24d2c26a9bad72a36fca4b4}
+      \strng{bibnamehash}{475e5edfc24d2c26a9bad72a36fca4b4}
+      \strng{authorbibnamehash}{475e5edfc24d2c26a9bad72a36fca4b4}
+      \strng{authornamehash}{5eaaf6db6f9e4146a92007bb52d899d1}
+      \strng{authorfullhash}{475e5edfc24d2c26a9bad72a36fca4b4}
+      \strng{authorfullhashraw}{475e5edfc24d2c26a9bad72a36fca4b4}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Scientific reports}
+      \field{number}{1}
+      \field{title}{Whole genome sequencing, analyses of drug resistance-conferring mutations, and correlation with transmission of Mycobacterium tuberculosis carrying katG-S315T in Hanoi, Vietnam}
+      \field{volume}{9}
+      \field{year}{2019}
+      \field{pages}{15354}
+      \range{pages}{1}
+    \endentry
+    \entry{singh2016pe11}{article}{}{}
+      \name{author}{7}{}{%
+        {{hash=5b8de8bcefbbaee7691fada1c0657a72}{%
+           family={Singh},
+           familyi={S\bibinitperiod},
+           given={Parul},
+           giveni={P\bibinitperiod}}}%
+        {{hash=61c0fa13e5ca62e327d233a055025c71}{%
+           family={Rao},
+           familyi={R\bibinitperiod},
+           given={Rameshwaram\bibnamedelima Nagender},
+           giveni={R\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+        {{hash=911f68e0ae150db0854d48a04200c391}{%
+           family={Reddy},
+           familyi={R\bibinitperiod},
+           given={Jala\bibnamedelimb Ram\bibnamedelima Chandra},
+           giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=caefebd171a94ca1c21dc8576fd42b75}{%
+           family={Prasad},
+           familyi={P\bibinitperiod},
+           given={RBN},
+           giveni={R\bibinitperiod}}}%
+        {{hash=00e49645d9e09378a9b3e78fd2674536}{%
+           family={Kotturu},
+           familyi={K\bibinitperiod},
+           given={Sandeep\bibnamedelima Kumar},
+           giveni={S\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=ab7c6f9d92761345e5e5bffa11a6049d}{%
+           family={Ghosh},
+           familyi={G\bibinitperiod},
+           given={Sudip},
+           giveni={S\bibinitperiod}}}%
+        {{hash=46e079176e0a7485f5eae20c24a0304c}{%
+           family={Mukhopadhyay},
+           familyi={M\bibinitperiod},
+           given={Sangita},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Nature Publishing Group}%
+      }
+      \strng{namehash}{082de9a5a089c9be464cbc9dc4f32868}
+      \strng{fullhash}{fcf35adb6dd94ae46d0d9ebe13dacae9}
+      \strng{fullhashraw}{fcf35adb6dd94ae46d0d9ebe13dacae9}
+      \strng{bibnamehash}{fcf35adb6dd94ae46d0d9ebe13dacae9}
+      \strng{authorbibnamehash}{fcf35adb6dd94ae46d0d9ebe13dacae9}
+      \strng{authornamehash}{082de9a5a089c9be464cbc9dc4f32868}
+      \strng{authorfullhash}{fcf35adb6dd94ae46d0d9ebe13dacae9}
+      \strng{authorfullhashraw}{fcf35adb6dd94ae46d0d9ebe13dacae9}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Scientific Reports}
+      \field{number}{1}
+      \field{title}{PE11, a PE/PPE family protein of Mycobacterium tuberculosis is involved in cell wall remodeling and virulence}
+      \field{volume}{6}
+      \field{year}{2016}
+      \field{pages}{1\bibrangedash 16}
+      \range{pages}{16}
+    \endentry
+  \enddatalist
+  \missing{cole1998deciphering}
+\endrefsection
+\endinput
+

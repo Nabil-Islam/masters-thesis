@@ -1,0 +1,18 @@
+% !TeX root = ../main.tex
+\section*{Methods}
+\begin{tikzpicture}[node distance=1.2cm and 1.5cm]
+
+  % --- top row ---
+  \node[process] (query) {Query databases (ENA, SRA)};
+
+  \coordinate (fastqpos) at ([xshift=2.5cm]query.east);
+
+  % Change yshift from negative to positive to stack upward
+  \node[file, xshift=8pt, yshift=8pt] at (fastqpos) {};
+  \node[file, xshift=4pt, yshift=4pt] at (fastqpos) {};
+  \node[file] (fastq) at (fastqpos) {Mtb FastQ $\sim$45,000 files};
+
+  % --- arrows ---
+  \draw[arrow] (query) -- (fastq);
+
+\end{tikzpicture}
