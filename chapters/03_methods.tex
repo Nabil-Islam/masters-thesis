@@ -1,18 +1,55 @@
-% !TeX root = ../main.tex
 \section*{Methods}
-\begin{tikzpicture}[node distance=1.2cm and 1.5cm]
 
+\begin{tikzpicture}[node distance=1.2cm and 2cm]
   % --- top row ---
   \node[process] (query) {Query databases (ENA, SRA)};
+  \node[file, right=of query] (fastq) {MTB FastQ $\sim$45,000
+  files};
+  \node[process, right= of fastq] (tbprof) {TB-Profiler};
+  \node[file, below= of query, yshift= -1.5cm] (respred) {Resistance Predictions};
 
-  \coordinate (fastqpos) at ([xshift=2.5cm]query.east);
-
-  % Change yshift from negative to positive to stack upward
-  \node[file, xshift=8pt, yshift=8pt] at (fastqpos) {};
-  \node[file, xshift=4pt, yshift=4pt] at (fastqpos) {};
-  \node[file] (fastq) at (fastqpos) {Mtb FastQ $\sim$45,000 files};
+  % FN files
+  \node[file, right= of respred, xshift=-1cm] (fn) {\textbf{FN}};
+  \node[file, below= of respred, yshift=0.75cm] (pheno) {Sample Phenotypes};
+    
+  \matrix (snpmatrix) [matrix of nodes, below= of tbprof, anchor=north east ] at ([xshift=1.25cm, yshift=-0.05cm]tbprof.east) {
+    {}        & \rotatebox{45}{SNP 1}    & \rotatebox{45}{SNP 2}    & $\cdots$ & \rotatebox{45}{SNP $n$} \\
+    Sample 1  & 0        & 1        & $\cdots$ & 1      \\
+    Sample 2 & 1        & 0        & $\cdots$ & 1       \\
+    $\vdots$& $\vdots$ & $\vdots$ & $\ddots$ & $\vdots$\\
+    Sample $n$& 1        & 0        & $\cdots$ & 0      \\
+  };
+  
+  \node[file, below=of snpmatrix] (vcf) {VCF files};
 
   % --- arrows ---
   \draw[arrow] (query) -- (fastq);
+  \draw[arrow] (fastq) -- (tbprof);
+    % -|- bend: right of tbprofiler, down, then left to resist
+  \coordinate (bend1) at ([xshift=1cm]tbprof.east);   % go right
+  \coordinate (bend2) at ([yshift=-0.9cm]bend1);
+  \coordinate (bend3) at ([yshift=-0.9cm]query.west);
+  \coordinate (bend4) at ([xshift=-0.15cm]respred.west);
 
+  \draw[arrow] (tbprof.east) -- (bend1) |- (bend2) -- (bend3) -| (bend4) -- (respred.west);
+  \draw[arrow] (pheno.north) -- (respred.south);
+  \draw[arrow] (respred.east) -- (fn.west);
+  \draw[arrow] (fn.east) -- (snpmatrix.west);
+  \draw[arrow] (vcf.north) -- (snpmatrix.south);
+
+  % Left continuous bracket
+  \draw[thick] 
+    ([xshift=-3pt]snpmatrix-2-2.north west) --
+    ([xshift=-6pt]snpmatrix-2-2.north west) --
+    ([xshift=-6pt]snpmatrix-5-2.south west) --
+    ([xshift=-3pt]snpmatrix-5-2.south west);
+
+  % Right continuous bracket
+  \draw[thick]
+    ([xshift=3pt]snpmatrix-2-5.north east) --
+    ([xshift=6pt]snpmatrix-2-5.north east) --
+    ([xshift=6pt]snpmatrix-5-5.south east) --
+    ([xshift=3pt]snpmatrix-5-5.south east);
 \end{tikzpicture}
+
+

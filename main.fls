@@ -243,6 +243,8 @@ INPUT /usr/local/texlive/2026basic/texmf-dist/tex/generic/pgf/frontendlayer/tikz
 INPUT /usr/local/texlive/2026basic/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarybackgrounds.code.tex
 INPUT /usr/local/texlive/2026basic/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryfit.code.tex
 INPUT /usr/local/texlive/2026basic/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryfit.code.tex
+INPUT /usr/local/texlive/2026basic/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarymatrix.code.tex
+INPUT /usr/local/texlive/2026basic/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarymatrix.code.tex
 INPUT /usr/local/texlive/2026basic/texmf-dist/tex/latex/biblatex/biblatex.sty
 INPUT /usr/local/texlive/2026basic/texmf-dist/tex/latex/biblatex/biblatex.sty
 INPUT /usr/local/texlive/2026basic/texmf-dist/tex/latex/logreq/logreq.sty
@@ -303,45 +305,3 @@ INPUT ./main.bbl
 INPUT ./main.bbl
 INPUT main.bbl
 INPUT /usr/local/texlive/2026basic/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm
-INPUT /usr/local/texlive/2026basic/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
-INPUT /usr/local/texlive/2026basic/texmf-dist/fonts/tfm/public/cm/cmex10.tfm
-INPUT /usr/local/texlive/2026basic/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
-INPUT /usr/local/texlive/2026basic/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
-OUTPUT main.xdv
-INPUT ./main.toc
-INPUT ./main.toc
-INPUT main.toc
-INPUT /usr/local/texlive/2026basic/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm
-INPUT /usr/local/texlive/2026basic/texmf-dist/fonts/tfm/public/cm/cmmi8.tfm
-INPUT /usr/local/texlive/2026basic/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm
-INPUT /usr/local/texlive/2026basic/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
-INPUT /usr/local/texlive/2026basic/texmf-dist/fonts/tfm/public/cm/cmsy8.tfm
-INPUT /usr/local/texlive/2026basic/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm
-INPUT /usr/local/texlive/2026basic/texmf-dist/fonts/tfm/public/cm/cmex10.tfm
-INPUT /usr/local/texlive/2026basic/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm
-INPUT /usr/local/texlive/2026basic/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
-INPUT /usr/local/texlive/2026basic/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
-INPUT /usr/local/texlive/2026basic/texmf-dist/fonts/tfm/public/cm/cmr8.tfm
-INPUT /usr/local/texlive/2026basic/texmf-dist/fonts/tfm/public/cm/cmr6.tfm
-OUTPUT main.toc
-INPUT ./chapters/02_lit_review.tex
-INPUT ./chapters/02_lit_review.tex
-INPUT chapters/02_lit_review.tex
-INPUT ./figures/Screen Shot 2024-11-01 at 5.22.47 am.png
-INPUT ./figures/Screen Shot 2024-11-01 at 5.22.47 am.png
-INPUT ./figures/Screen Shot 2024-11-01 at 5.22.47 am.png
-INPUT ./figures/Screen Shot 2024-11-01 at 5.26.51 am.png
-INPUT ./figures/Screen Shot 2024-11-01 at 5.26.51 am.png
-INPUT ./figures/Screen Shot 2024-11-01 at 5.26.51 am.png
-INPUT ./chapters/03_methods.tex
-INPUT ./chapters/03_methods.tex
-INPUT chapters/03_methods.tex
-INPUT /usr/local/texlive/2026basic/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm
-INPUT /usr/local/texlive/2026basic/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
-INPUT /usr/local/texlive/2026basic/texmf-dist/fonts/tfm/public/cm/cmex10.tfm
-INPUT /usr/local/texlive/2026basic/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT main.aux
-INPUT ./main.out
-INPUT ./main.out
-INPUT main.run.xml
-OUTPUT main.run.xml
