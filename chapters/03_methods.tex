@@ -2,173 +2,210 @@
 \section*{Methods}
 \centering
 
-\includegraphics[width=0.8\textwidth]{figures/train.pdf}    
+\begin{figure}[H]
+  \centering
+  \includegraphics{figures/who_snps.pdf}
+  \caption{WHO SNP filtering process}
+  \label{fig:who}
+\end{figure}
 
-\begin{tikzpicture}[
-    % Style for the binary digits inside the input vector
-    input_node/.style={draw=none, minimum size=0.6cm, font=\small},
-    % Style for the single MUCH LARGER Sigmoid processing node
-    sigm_node/.style={circle, draw=black, minimum size=1.3cm, fill=gray!15, font=\large\bfseries},
-    % Style for plain text/labels
-    plain/.style={draw=none}
-]
-
-    % --- 0. VCF FILE ICON ---
-    \draw[thick, fill=gray!5] (-2.3, 0.4) -- (-1.5, 0.4) -- (-1.3, 0.15) -- (-1.3, -0.6) -- (-2.3, -0.6) -- cycle;
-    \draw[thick] (-1.5, 0.4) -- (-1.5, 0.15) -- (-1.3, 0.15);
-    \node[font=\footnotesize\bfseries] at (-1.8, -0.1) {VCF};
-    
-    % Arrow from VCF file to Input Vector
-    \draw[->, ultra thick, gray] (-1.1, -0.1) -- (-0.6, -0.1);
+\begin{figure}[H]
+  \centering
+  \includegraphics{figures/er.drawio-1.pdf}
+  \caption{Expert rules SNP filtering process}
+  \label{fig:er}
+\end{figure}
 
 
-    % --- 1. INPUT LAYER (26k SNP Binary Vector) ---
-    \draw[thick] (-0.3, 4.0) -- (-0.4, 4.0) -- (-0.4, -3.8) -- (-0.3, -3.8); 
-    \draw[thick] (0.3, 4.0) -- (0.4, 4.0) -- (0.4, -3.8) -- (0.3, -3.8); 
-    
-    \node[plain] at (0, 4.4) {$\mathbf{x} \in \{0,1\}^{26k \times 1}$};
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.8\textwidth]{figures/filt.drawio.pdf}
+  \caption{Filtering SNP from FNs and augmented existing catalogues}
+  \label{fig:filt}
+\end{figure}
 
-    % Binary Elements
-    \node[input_node] (in1) at (0, 3.5)  {$0$};
-    \node[input_node] (in2) at (0, 2.3)  {$1$};
-    \node[input_node] (in3) at (0, 1.1)  {$0$};
-    \node[input_node] (in4) at (0, -0.1) {$1$};
-    \node[input_node] (in5) at (0, -1.3) {$1$};
-    \node[plain]      (indot) at (0, -2.2) {$\vdots$};
-    \node[input_node] (in26k) at (0, -3.3) {$1$};
+\begin{figure}[H]
+  \centering
+  \begin{tikzpicture}[
+      % Style for the binary digits inside the input vector
+      input_node/.style={draw=none, minimum size=0.6cm, font=\small},
+      % Style for the single MUCH LARGER Sigmoid processing node
+      sigm_node/.style={circle, draw=black, minimum size=1.3cm, fill=gray!15, font=\large\bfseries},
+      % Style for plain text/labels
+      plain/.style={draw=none}
+  ]
 
-
-    % --- 2. THE LARGE SIGMOID NEURON (Centered at Y=0) ---
-    \node[sigm_node] (sig1) at (3.2, 0) {$\sigma$};
-
-
-    % --- 3. SYNAPSE CONNECTIONS ---
-    % All inputs converge cleanly into the large single neuron node
-    \draw[->, thick] (0.4,3.5) -- node[above, pos=0.4, scale=0.65, sloped, black] {$w_1=1$} (sig1);
-    \draw[->, thick] (0.4, 2.3) -- node[above, pos=0.4, scale=0.65, sloped, black] {$w_2=1$} (sig1);
-    \draw[->, thick] (0.4, 1.1) -- node[above, pos=0.4, scale=0.65, sloped, black] {$w_3=0$} (sig1);
-    \draw[->, thick] (0.4,-0.1) -- node[above, pos=0.4, scale=0.65, sloped, black] {$w_4=0$} (sig1);
-    \draw[->, thick] (0.4, -1.3) -- node[above, pos=0.4, scale=0.65, sloped, black] {$w_5=0$} (sig1);
-    \node[plain] (dot) at (1.2,-1.35) {$\vdots$};
-    \draw[->, thick] (0.4, -3.3) -- node[above, pos=0.5, scale=0.65, sloped, black] {$w_{26k}=1$} (sig1);
+      % --- 0. VCF FILE ICON ---
+      \draw[thick, fill=gray!5] (-2.3, 0.4) -- (-1.5, 0.4) -- (-1.3, 0.15) -- (-1.3, -0.6) -- (-2.3, -0.6) -- cycle;
+      \draw[thick] (-1.5, 0.4) -- (-1.5, 0.15) -- (-1.3, 0.15);
+      \node[font=\footnotesize\bfseries] at (-1.8, -0.1) {VCF};
+      
+      % Arrow from VCF file to Input Vector
+      \draw[->, ultra thick, gray] (-1.1, -0.1) -- (-0.6, -0.1);
 
 
+      % --- 1. INPUT LAYER (26k SNP Binary Vector) ---
+      \draw[thick] (-0.3, 4.0) -- (-0.4, 4.0) -- (-0.4, -3.8) -- (-0.3, -3.8); 
+      \draw[thick] (0.3, 4.0) -- (0.4, 4.0) -- (0.4, -3.8) -- (0.3, -3.8); 
+      
+      \node[plain] at (0, 4.4) {$\mathbf{x} \in \{0,1\}^{26k \times 1}$};
 
-    % --- 4. INTERMEDIATE LAYER (Scalar Probability Output) ---
-    \node[plain] (p1) at (5.5, 0) {$\hat{p} \in [0,1]$};
-    \draw[->, thick] (sig1) -- (p1);
-
-    % --- 6. OUTPUT LAYER (Final Single Drug Susceptibility Class) ---
-    \node[plain] (y1) at (8, 0) {$y \in \{R, S\}$};
-    \draw[->, thick] (p1) -- (y1);
-
-\end{tikzpicture}
-
-\begin{tikzpicture}[
-    % Style for the binary digits inside the input vector
-    input_node/.style={draw=none, minimum size=0.6cm, font=\small},
-    % Style for the 15 Sigmoid processing nodes
-    sigm_node/.style={circle, draw=black, minimum size=0.65cm, fill=gray!10, font=\scriptsize},
-    % Style for plain text/labels
-    plain/.style={draw=none},
-    % Custom style to draw a document/file icon
-    file_icon/.style={
-        draw, thick, fill=white,
-        append after command={
-            % Draws the folded corner of the paper icon
-            [shift={(-0.15,-0.2)}] (\numexpr\tikzlastnode\relax.north east) -- 
-            ++(-0.25,0) -- ++(0,0.25) -- cycle
-        }
-    }
-]
-
-    % --- 0. VCF FILE ICON (Shifted right from -3.3 to -1.8) ---
-    \draw[thick, fill=gray!5] (-2.3, 0.4) -- (-1.5, 0.4) -- (-1.3, 0.15) -- (-1.3, -0.6) -- (-2.3, -0.6) -- cycle;
-    \draw[thick] (-1.5, 0.4) -- (-1.5, 0.15) -- (-1.3, 0.15);
-    \node[font=\footnotesize\bfseries] at (-1.8, -0.1) {VCF};
-    
-    % Shorter Arrow from VCF file to Input Vector
-    \draw[->, ultra thick, gray] (-1.1, -0.1) -- (-0.6, -0.1);
+      % Binary Elements
+      \node[input_node] (in1) at (0, 3.5)  {$0$};
+      \node[input_node] (in2) at (0, 2.3)  {$1$};
+      \node[input_node] (in3) at (0, 1.1)  {$0$};
+      \node[input_node] (in4) at (0, -0.1) {$1$};
+      \node[input_node] (in5) at (0, -1.3) {$1$};
+      \node[plain]      (indot) at (0, -2.2) {$\vdots$};
+      \node[input_node] (in26k) at (0, -3.3) {$1$};
 
 
-    % --- 1. INPUT LAYER (26k SNP Binary Vector) ---
-    % Vector Brackets
-    \draw[thick] (-0.3, 4.0) -- (-0.4, 4.0) -- (-0.4, -3.8) -- (-0.3, -3.8); 
-    \draw[thick] (0.3, 4.0) -- (0.4, 4.0) -- (0.4, -3.8) -- (0.3, -3.8); 
-    
-    \node[plain] at (0, 4.6) {$\mathbf{x} \in \{0,1\}^{26k \times 1}$};
-
-    % Binary Elements
-    \node[input_node] (in1) at (0, 3.5)  {$0$};
-    \node[input_node] (in2) at (0, 2.3)  {$1$};
-    \node[input_node] (in3) at (0, 1.1)  {$0$};
-    \node[input_node] (in4) at (0, -0.1) {$1$};
-    \node[input_node] (in5) at (0, -1.3) {$1$};
-    \node[plain]      (indot) at (0, -2.2) {$\vdots$};
-    \node[input_node] (in26k) at (0, -3.3) {$1$};
+      % --- 2. THE LARGE SIGMOID NEURON (Centered at Y=0) ---
+      \node[sigm_node] (sig1) at (3.2, 0) {$\sigma$};
 
 
-    % --- 2. 15 SIGMOID NODES LAYER ---
-    \foreach \j in {1,...,15} {
-        \pgfmathsetmacro{\ypos}{4.0 - (\j-1) * 0.57}
-        \node[sigm_node] (sig\j) at (3.5, \ypos) {$\sigma_{\j}$};
-    }
+      % --- 3. SYNAPSE CONNECTIONS ---
+      % All inputs converge cleanly into the large single neuron node
+      \draw[->, thick] (0.4,3.5) -- node[above, pos=0.4, scale=0.65, sloped, black] {$w_1=1$} (sig1);
+      \draw[->, thick] (0.4, 2.3) -- node[above, pos=0.4, scale=0.65, sloped, black] {$w_2=1$} (sig1);
+      \draw[->, thick] (0.4, 1.1) -- node[above, pos=0.4, scale=0.65, sloped, black] {$w_3=0$} (sig1);
+      \draw[->, thick] (0.4,-0.1) -- node[above, pos=0.4, scale=0.65, sloped, black] {$w_4=0$} (sig1);
+      \draw[->, thick] (0.4, -1.3) -- node[above, pos=0.4, scale=0.65, sloped, black] {$w_5=0$} (sig1);
+      \node[plain] (dot) at (1.2,-1.35) {$\vdots$};
+      \draw[->, thick] (0.4, -3.3) -- node[above, pos=0.5, scale=0.65, sloped, black] {$w_{26k}=1$} (sig1);
 
 
-    % --- 3. DENSE SYNAPSE CONNECTIONS ---
-    \foreach \j in {1,...,15} {
-        \draw[->, thin, opacity=0.15] (0.4,3.5) -- (sig\j);
-        \draw[->, thin, opacity=0.15] (0.4, 2.3) -- (sig\j);
-        \draw[->, thin, opacity=0.15] (0.4, 1.1) -- (sig\j);
-        \draw[->, thin, opacity=0.15] (0.4, -0.1) -- (sig\j);
-        \draw[->, thin, opacity=0.15] (0.4, -1.3) -- (sig\j);
-        \draw[->, thin, opacity=0.15] (0.4, -3.3) -- (sig\j);
-    }
+
+      % --- 4. INTERMEDIATE LAYER (Scalar Probability Output) ---
+      \node[plain] (p1) at (5.5, 0) {$\hat{p} \in [0,1]$};
+      \draw[->, thick] (sig1) -- (p1);
+
+      % --- 6. OUTPUT LAYER (Final Single Drug Susceptibility Class) ---
+      \node[plain] (y1) at (8, 0) {$y \in \{R, S\}$};
+      \draw[->, thick] (p1) -- (y1);
+
+  \end{tikzpicture}
+  \caption{Schematic for one neuron with weights specified for a particular drug}
+  \label{fig:onescheme}
+\end{figure}
+
+\begin{figure}
+  \centering
+  \begin{tikzpicture}[
+      % Style for the binary digits inside the input vector
+      input_node/.style={draw=none, minimum size=0.6cm, font=\small},
+      % Style for the 15 Sigmoid processing nodes
+      sigm_node/.style={circle, draw=black, minimum size=0.65cm, fill=gray!10, font=\scriptsize},
+      % Style for plain text/labels
+      plain/.style={draw=none},
+      % Custom style to draw a document/file icon
+      file_icon/.style={
+          draw, thick, fill=white,
+          append after command={
+              % Draws the folded corner of the paper icon
+              [shift={(-0.15,-0.2)}] (\numexpr\tikzlastnode\relax.north east) -- 
+              ++(-0.25,0) -- ++(0,0.25) -- cycle
+          }
+      }
+  ]
+
+      % --- 0. VCF FILE ICON (Shifted right from -3.3 to -1.8) ---
+      \draw[thick, fill=gray!5] (-2.3, 0.4) -- (-1.5, 0.4) -- (-1.3, 0.15) -- (-1.3, -0.6) -- (-2.3, -0.6) -- cycle;
+      \draw[thick] (-1.5, 0.4) -- (-1.5, 0.15) -- (-1.3, 0.15);
+      \node[font=\footnotesize\bfseries] at (-1.8, -0.1) {VCF};
+      
+      % Shorter Arrow from VCF file to Input Vector
+      \draw[->, ultra thick, gray] (-1.1, -0.1) -- (-0.6, -0.1);
 
 
-    % --- 4. INTERMEDIATE LAYER (Probability Vector shifted left to X=5.0) ---
-    \foreach \j / \prob in {
-        1/0.88, 2/0.12, 3/0.74, 4/0.91, 5/0.04, 
-        6/0.33, 7/0.65, 8/0.21, 9/0.79, 10/0.82, 
-        11/0.15, 12/0.68, 13/0.44, 14/0.09, 15/0.95
-    } {
-        \pgfmathsetmacro{\ypos}{4.0 - (\j-1) * 0.57}
-        \node[plain] (p\j) at (5.0, \ypos) {\scalebox{0.85}{$\prob$}};
-        % Shorter line endpoint target changed to 4.6
-        \draw[->, thick] (sig\j) -- (4.6, \ypos);
-    }
-    
-    % Probability Vector Brackets (Shifted to encompass X=5.0)
-    \draw[thick] (4.7, 4.2) -- (4.6, 4.2) -- (4.6, -4.2) -- (4.7, -4.2); 
-    \draw[thick] (5.3, 4.2) -- (5.4, 4.2) -- (5.4, -4.2) -- (5.3, -4.2); 
-    \node[plain] at (5.0, 4.6) {$\hat{\mathbf{p}}$};
+      % --- 1. INPUT LAYER (26k SNP Binary Vector) ---
+      % Vector Brackets
+      \draw[thick] (-0.3, 4.0) -- (-0.4, 4.0) -- (-0.4, -3.8) -- (-0.3, -3.8); 
+      \draw[thick] (0.3, 4.0) -- (0.4, 4.0) -- (0.4, -3.8) -- (0.3, -3.8); 
+      
+      \node[plain] at (0, 4.6) {$\mathbf{x} \in \{0,1\}^{26k \times 1}$};
+
+      % Binary Elements
+      \node[input_node] (in1) at (0, 3.5)  {$0$};
+      \node[input_node] (in2) at (0, 2.3)  {$1$};
+      \node[input_node] (in3) at (0, 1.1)  {$0$};
+      \node[input_node] (in4) at (0, -0.1) {$1$};
+      \node[input_node] (in5) at (0, -1.3) {$1$};
+      \node[plain]      (indot) at (0, -2.2) {$\vdots$};
+      \node[input_node] (in26k) at (0, -3.3) {$1$};
 
 
-    % --- 5. THRESHOLD APPLICATION TRANSITION (Compensated leftward shift) ---
-    \draw[->, ultra thick, gray] (5.7, 0) -- node[above, black, align=center, scale=0.7, yshift=10pt, xshift=-2pt] {Threshold\\Application} (7.1, 0);
+      % --- 2. 15 SIGMOID NODES LAYER ---
+      \foreach \j in {1,...,15} {
+          \pgfmathsetmacro{\ypos}{4.0 - (\j-1) * 0.57}
+          \node[sigm_node] (sig\j) at (3.5, \ypos) {$\sigma_{\j}$};
+      }
 
 
-    % --- 6. OUTPUT LAYER (Final Vector shifted left to X=7.5) ---
-    \foreach \j / \res / \drug in {
-        1/R/Amikacin, 2/S/Bedaquiline, 3/R/Capreomycin, 4/R/Clofazimine, 
-        5/S/Delamanid, 6/S/Ethambutol, 7/R/Ethionamide, 8/S/Isoniazid, 
-        9/R/Kanamycin, 10/R/Levofloxacin, 11/S/Linezolid, 12/R/Moxifloxacin, 
-        13/S/Pyrazinamide, 14/S/Rifampicin, 15/R/Streptomycin
-    } {
-        \pgfmathsetmacro{\ypos}{4.0 - (\j-1) * 0.57}
-        
-        % Final categorical value
-        \node[plain] (y\j) at (7.5, \ypos) {$\text{\res}$};
-        
-        % Right Annotation (Drug Names shifted closer)
-        \node[plain, anchor=west, font=\footnotesize] at (8.1, \ypos) {$\leftarrow \text{\drug}$};
-    }
+      % --- 3. DENSE SYNAPSE CONNECTIONS ---
+      \foreach \j in {1,...,15} {
+          \draw[->, thin, opacity=0.15] (0.4,3.5) -- (sig\j);
+          \draw[->, thin, opacity=0.15] (0.4, 2.3) -- (sig\j);
+          \draw[->, thin, opacity=0.15] (0.4, 1.1) -- (sig\j);
+          \draw[->, thin, opacity=0.15] (0.4, -0.1) -- (sig\j);
+          \draw[->, thin, opacity=0.15] (0.4, -1.3) -- (sig\j);
+          \draw[->, thin, opacity=0.15] (0.4, -3.3) -- (sig\j);
+      }
 
-    % Final Classification Vector Brackets (Shifted to encompass X=7.5)
-    \draw[thick] (7.3, 4.2) -- (7.2, 4.2) -- (7.2, -4.2) -- (7.3, -4.2); 
-    \draw[thick] (7.7, 4.2) -- (7.8, 4.2) -- (7.8, -4.2) -- (7.7, -4.2); 
 
-    \node[plain] at (7.5, 4.6) {$\mathbf{y}$};
+      % --- 4. INTERMEDIATE LAYER (Probability Vector shifted left to X=5.0) ---
+      \foreach \j / \prob in {
+          1/0.88, 2/0.12, 3/0.74, 4/0.91, 5/0.04, 
+          6/0.33, 7/0.65, 8/0.21, 9/0.79, 10/0.82, 
+          11/0.15, 12/0.68, 13/0.44, 14/0.09, 15/0.95
+      } {
+          \pgfmathsetmacro{\ypos}{4.0 - (\j-1) * 0.57}
+          \node[plain] (p\j) at (5.0, \ypos) {\scalebox{0.85}{$\prob$}};
+          % Shorter line endpoint target changed to 4.6
+          \draw[->, thick] (sig\j) -- (4.6, \ypos);
+      }
+      
+      % Probability Vector Brackets (Shifted to encompass X=5.0)
+      \draw[thick] (4.7, 4.2) -- (4.6, 4.2) -- (4.6, -4.2) -- (4.7, -4.2); 
+      \draw[thick] (5.3, 4.2) -- (5.4, 4.2) -- (5.4, -4.2) -- (5.3, -4.2); 
+      \node[plain] at (5.0, 4.6) {$\hat{\mathbf{p}}$};
 
-\end{tikzpicture}
 
+      % --- 5. THRESHOLD APPLICATION TRANSITION (Compensated leftward shift) ---
+      \draw[->, ultra thick, gray] (5.7, 0) -- node[above, black, align=center, scale=0.7, yshift=10pt, xshift=-2pt] {Threshold\\Application} (7.1, 0);
+
+
+      % --- 6. OUTPUT LAYER (Final Vector shifted left to X=7.5) ---
+      \foreach \j / \res / \drug in {
+          1/R/Amikacin, 2/S/Bedaquiline, 3/R/Capreomycin, 4/R/Clofazimine, 
+          5/S/Delamanid, 6/S/Ethambutol, 7/R/Ethionamide, 8/S/Isoniazid, 
+          9/R/Kanamycin, 10/R/Levofloxacin, 11/S/Linezolid, 12/R/Moxifloxacin, 
+          13/S/Pyrazinamide, 14/S/Rifampicin, 15/R/Streptomycin
+      } {
+          \pgfmathsetmacro{\ypos}{4.0 - (\j-1) * 0.57}
+          
+          % Final categorical value
+          \node[plain] (y\j) at (7.5, \ypos) {$\text{\res}$};
+          
+          % Right Annotation (Drug Names shifted closer)
+          \node[plain, anchor=west, font=\footnotesize] at (8.1, \ypos) {$\leftarrow \text{\drug}$};
+      }
+
+      % Final Classification Vector Brackets (Shifted to encompass X=7.5)
+      \draw[thick] (7.3, 4.2) -- (7.2, 4.2) -- (7.2, -4.2) -- (7.3, -4.2); 
+      \draw[thick] (7.7, 4.2) -- (7.8, 4.2) -- (7.8, -4.2) -- (7.7, -4.2); 
+
+      \node[plain] at (7.5, 4.6) {$\mathbf{y}$};
+
+  \end{tikzpicture}
+  \caption{Neural Net schematic for 15 drugs}
+  \label{fig:fullschem}
+\end{figure}
+
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=\textwidth]{figures/train.drawio.pdf}
+  \caption{Training process}
+  \label{fig:train}
+\end{figure}
