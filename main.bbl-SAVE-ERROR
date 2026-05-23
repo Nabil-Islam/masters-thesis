@@ -1960,84 +1960,6 @@
       \field{pages}{152321}
       \range{pages}{1}
     \endentry
-    \entry{cole1998deciphering}{article}{}{}
-      \true{moreauthor}
-      \true{morelabelname}
-      \name{author}{10}{}{%
-        {{hash=594e3534d0e766e7d9c47e21d4f55ef2}{%
-           family={Cole},
-           familyi={C\bibinitperiod},
-           given={STea},
-           giveni={S\bibinitperiod}}}%
-        {{hash=7d0d9135db167c2e4eed296ef9f0280f}{%
-           family={Brosch},
-           familyi={B\bibinitperiod},
-           given={R},
-           giveni={R\bibinitperiod}}}%
-        {{hash=1d6d0370f6b7dd2873d4558eeb27ee33}{%
-           family={Parkhill},
-           familyi={P\bibinitperiod},
-           given={J},
-           giveni={J\bibinitperiod}}}%
-        {{hash=bf92ce9bf0c803a28b83e982beb0be2c}{%
-           family={Garnier},
-           familyi={G\bibinitperiod},
-           given={T},
-           giveni={T\bibinitperiod}}}%
-        {{hash=8f9d3f60af83e25c840292f65d1cb637}{%
-           family={Churcher},
-           familyi={C\bibinitperiod},
-           given={C},
-           giveni={C\bibinitperiod}}}%
-        {{hash=0c1fa6749b9472f5041701590dfca827}{%
-           family={Harris},
-           familyi={H\bibinitperiod},
-           given={D},
-           giveni={D\bibinitperiod}}}%
-        {{hash=f3de94fe2946e4a0cede4eceab738259}{%
-           family={Gordon},
-           familyi={G\bibinitperiod},
-           given={SV},
-           giveni={S\bibinitperiod}}}%
-        {{hash=11c2df1f77514a70ff0cb8979773f42b}{%
-           family={Eiglmeier},
-           familyi={E\bibinitperiod},
-           given={K},
-           giveni={K\bibinitperiod}}}%
-        {{hash=6f027ccf3fa1a23812e78a3fece26c1d}{%
-           family={Gas},
-           familyi={G\bibinitperiod},
-           given={S},
-           giveni={S\bibinitperiod}}}%
-        {{hash=a1b38292abaaffe8c8a0392b1c098587}{%
-           family={Barry\bibnamedelima Iii},
-           familyi={B\bibinitperiod\bibinitdelim I\bibinitperiod},
-           given={CE},
-           giveni={C\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Nature Publishing Group UK London}%
-      }
-      \strng{namehash}{726678013f58f7afa2aea1f7d2ded5ac}
-      \strng{fullhash}{c362cab6e486b676a1d263a149024b41}
-      \strng{fullhashraw}{c362cab6e486b676a1d263a149024b41}
-      \strng{bibnamehash}{c362cab6e486b676a1d263a149024b41}
-      \strng{authorbibnamehash}{c362cab6e486b676a1d263a149024b41}
-      \strng{authornamehash}{726678013f58f7afa2aea1f7d2ded5ac}
-      \strng{authorfullhash}{c362cab6e486b676a1d263a149024b41}
-      \strng{authorfullhashraw}{c362cab6e486b676a1d263a149024b41}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Nature}
-      \field{number}{6707}
-      \field{title}{Deciphering the biology of Mycobacterium tuberculosis from the complete genome sequence}
-      \field{volume}{396}
-      \field{year}{1998}
-      \field{pages}{190\bibrangedash 190}
-      \range{pages}{1}
-    \endentry
     \entry{de2019immune}{article}{}{}
       \name{author}{4}{}{%
         {{hash=88fbe26977486ea2dabcb3545f40c37c}{%
@@ -2557,6 +2479,7 @@
       \range{pages}{16}
     \endentry
   \enddatalist
+  \missing{cole1998deciphering}
 \endrefsection
 \endinput
 

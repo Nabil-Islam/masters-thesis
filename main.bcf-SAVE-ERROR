@@ -2354,3 +2354,159 @@
         <bcf:field>institution</bcf:field>
       </bcf:constraint>
     </bcf:constraints>
+    <bcf:constraints>
+      <bcf:entrytype>unpublished</bcf:entrytype>
+      <bcf:constraint type="mandatory">
+        <bcf:field>author</bcf:field>
+        <bcf:field>title</bcf:field>
+      </bcf:constraint>
+    </bcf:constraints>
+    <bcf:constraints>
+      <bcf:constraint type="data" datatype="isbn">
+        <bcf:field>isbn</bcf:field>
+      </bcf:constraint>
+      <bcf:constraint type="data" datatype="issn">
+        <bcf:field>issn</bcf:field>
+      </bcf:constraint>
+      <bcf:constraint type="data" datatype="ismn">
+        <bcf:field>ismn</bcf:field>
+      </bcf:constraint>
+      <bcf:constraint type="data" datatype="pattern" pattern="(?:sf|sm|sn|pf|pm|pn|pp)">
+        <bcf:field>gender</bcf:field>
+      </bcf:constraint>
+    </bcf:constraints>
+  </bcf:datamodel>
+  <!-- CITATION DATA -->
+  <!-- SECTION 0 -->
+  <bcf:bibdata section="0">
+    <bcf:datasource type="file" datatype="bibtex" glob="false">references.bib</bcf:datasource>
+    <bcf:datasource type="file" datatype="bibtex" glob="false">references.bib</bcf:datasource>
+  </bcf:bibdata>
+  <bcf:section number="0">
+    <bcf:citekey order="1" intorder="1">pai2016</bcf:citekey>
+    <bcf:citekey order="2" intorder="1">gagneux2018</bcf:citekey>
+    <bcf:citekey order="3" intorder="1">riojas2018</bcf:citekey>
+    <bcf:citekey order="4" intorder="1">gagneux2018</bcf:citekey>
+    <bcf:citekey order="5" intorder="1">who2022</bcf:citekey>
+    <bcf:citekey order="6" intorder="1">who2022</bcf:citekey>
+    <bcf:citekey order="7" intorder="1">who2022</bcf:citekey>
+    <bcf:citekey order="8" intorder="1">whitney2016</bcf:citekey>
+    <bcf:citekey order="9" intorder="1">whitney2016</bcf:citekey>
+    <bcf:citekey order="10" intorder="1">who2022</bcf:citekey>
+    <bcf:citekey order="11" intorder="1">whitney2016</bcf:citekey>
+    <bcf:citekey order="12" intorder="1">whitney2016</bcf:citekey>
+    <bcf:citekey order="12" intorder="2">islam2017drug</bcf:citekey>
+    <bcf:citekey order="12" intorder="3">khawbung2021</bcf:citekey>
+    <bcf:citekey order="12" intorder="4">pai2016</bcf:citekey>
+    <bcf:citekey order="13" intorder="1">horsburgh2015</bcf:citekey>
+    <bcf:citekey order="14" intorder="1">queensland_health_2023</bcf:citekey>
+    <bcf:citekey order="15" intorder="1">Heyckendorf2018</bcf:citekey>
+    <bcf:citekey order="16" intorder="1">whitney2016</bcf:citekey>
+    <bcf:citekey order="17" intorder="1">who2022</bcf:citekey>
+    <bcf:citekey order="18" intorder="1">Heyckendorf2018</bcf:citekey>
+    <bcf:citekey order="18" intorder="2">Viney2100361</bcf:citekey>
+    <bcf:citekey order="19" intorder="1">Heyckendorf2018</bcf:citekey>
+    <bcf:citekey order="19" intorder="2">Viney2100361</bcf:citekey>
+    <bcf:citekey order="20" intorder="1">Aguilar2023</bcf:citekey>
+    <bcf:citekey order="20" intorder="2">whoguide2022</bcf:citekey>
+    <bcf:citekey order="21" intorder="1">whoguide2022</bcf:citekey>
+    <bcf:citekey order="22" intorder="1">whoguide2022</bcf:citekey>
+    <bcf:citekey order="23" intorder="1">sturdy2011mdr</bcf:citekey>
+    <bcf:citekey order="24" intorder="1">whitney2016</bcf:citekey>
+    <bcf:citekey order="25" intorder="1">who2022</bcf:citekey>
+    <bcf:citekey order="25" intorder="2">whoguide2022</bcf:citekey>
+    <bcf:citekey order="26" intorder="1">whoguide2022</bcf:citekey>
+    <bcf:citekey order="27" intorder="1">whoguide2022</bcf:citekey>
+    <bcf:citekey order="28" intorder="1">whoguide2022</bcf:citekey>
+    <bcf:citekey order="29" intorder="1">whitney2016</bcf:citekey>
+    <bcf:citekey order="30" intorder="1">whitney2016</bcf:citekey>
+    <bcf:citekey order="31" intorder="1">whitney2016</bcf:citekey>
+    <bcf:citekey order="31" intorder="2">islam2017drug</bcf:citekey>
+    <bcf:citekey order="32" intorder="1">who2022</bcf:citekey>
+    <bcf:citekey order="33" intorder="1">gagneux2018</bcf:citekey>
+    <bcf:citekey order="34" intorder="1">Yusoof2022</bcf:citekey>
+    <bcf:citekey order="35" intorder="1">whitney2016</bcf:citekey>
+    <bcf:citekey order="36" intorder="1">whitney2016</bcf:citekey>
+    <bcf:citekey order="37" intorder="1">who2022</bcf:citekey>
+    <bcf:citekey order="37" intorder="2">who2021tb</bcf:citekey>
+    <bcf:citekey order="38" intorder="1">who2022</bcf:citekey>
+    <bcf:citekey order="39" intorder="1">Yusoof2022</bcf:citekey>
+    <bcf:citekey order="40" intorder="1">who2018tb</bcf:citekey>
+    <bcf:citekey order="41" intorder="1">whoguide2022</bcf:citekey>
+    <bcf:citekey order="42" intorder="1">who_world_bank_2022</bcf:citekey>
+    <bcf:citekey order="43" intorder="1">sinha2020detection</bcf:citekey>
+    <bcf:citekey order="44" intorder="1">iram2015rapid</bcf:citekey>
+    <bcf:citekey order="45" intorder="1">whitney2016</bcf:citekey>
+    <bcf:citekey order="46" intorder="1">Yusoof2022</bcf:citekey>
+    <bcf:citekey order="47" intorder="1">rahman2016comparison</bcf:citekey>
+    <bcf:citekey order="47" intorder="2">musser1995antimicrobial</bcf:citekey>
+    <bcf:citekey order="48" intorder="1">mon2022first</bcf:citekey>
+    <bcf:citekey order="49" intorder="1">Yusoof2022</bcf:citekey>
+    <bcf:citekey order="49" intorder="2">whoguide2022</bcf:citekey>
+    <bcf:citekey order="50" intorder="1">marin2022benchmarking</bcf:citekey>
+    <bcf:citekey order="51" intorder="1">hall2023evaluation</bcf:citekey>
+    <bcf:citekey order="51" intorder="2">smith2020assessing</bcf:citekey>
+    <bcf:citekey order="52" intorder="1">meehan2018</bcf:citekey>
+    <bcf:citekey order="53" intorder="1">meehan2018</bcf:citekey>
+    <bcf:citekey order="54" intorder="1">walter2020genvar</bcf:citekey>
+    <bcf:citekey order="54" intorder="2">meehan2018</bcf:citekey>
+    <bcf:citekey order="55" intorder="1">Walker2022</bcf:citekey>
+    <bcf:citekey order="56" intorder="1">WHOcatalog</bcf:citekey>
+    <bcf:citekey order="57" intorder="1">Walker2022</bcf:citekey>
+    <bcf:citekey order="57" intorder="2">WHOcatalog</bcf:citekey>
+    <bcf:citekey order="58" intorder="1">WHOcatalog</bcf:citekey>
+    <bcf:citekey order="59" intorder="1">Walker2022</bcf:citekey>
+    <bcf:citekey order="60" intorder="1">dean202225</bcf:citekey>
+    <bcf:citekey order="61" intorder="1">whitney2016</bcf:citekey>
+    <bcf:citekey order="62" intorder="1">whitney2016</bcf:citekey>
+    <bcf:citekey order="63" intorder="1">hall2023evaluation</bcf:citekey>
+    <bcf:citekey order="63" intorder="2">smith2020assessing</bcf:citekey>
+    <bcf:citekey order="64" intorder="1">meehan2018</bcf:citekey>
+    <bcf:citekey order="64" intorder="2">world2018use</bcf:citekey>
+    <bcf:citekey order="64" intorder="3">inzaule2021genomic</bcf:citekey>
+    <bcf:citekey order="65" intorder="1">modlin2021exact</bcf:citekey>
+    <bcf:citekey order="66" intorder="1">whitney2016</bcf:citekey>
+    <bcf:citekey order="67" intorder="1">meehan2018</bcf:citekey>
+    <bcf:citekey order="68" intorder="1">li2008mapping</bcf:citekey>
+    <bcf:citekey order="68" intorder="2">li2014toward</bcf:citekey>
+    <bcf:citekey order="69" intorder="1">marin2022benchmarking</bcf:citekey>
+    <bcf:citekey order="70" intorder="1">marin2022benchmarking</bcf:citekey>
+    <bcf:citekey order="71" intorder="1">gagneux2018</bcf:citekey>
+    <bcf:citekey order="71" intorder="2">d2023pe</bcf:citekey>
+    <bcf:citekey order="72" intorder="1">Walker2022</bcf:citekey>
+    <bcf:citekey order="73" intorder="1">d2023pe</bcf:citekey>
+    <bcf:citekey order="73" intorder="2">cole1998deciphering</bcf:citekey>
+    <bcf:citekey order="74" intorder="1">d2023pe</bcf:citekey>
+    <bcf:citekey order="74" intorder="2">gagneux2018</bcf:citekey>
+    <bcf:citekey order="75" intorder="1">de2019immune</bcf:citekey>
+    <bcf:citekey order="76" intorder="1">d2023pe</bcf:citekey>
+    <bcf:citekey order="76" intorder="2">tundup2006clusters</bcf:citekey>
+    <bcf:citekey order="77" intorder="1">cole1998deciphering</bcf:citekey>
+    <bcf:citekey order="77" intorder="2">gey2006evolution</bcf:citekey>
+    <bcf:citekey order="78" intorder="1">gey2006evolution</bcf:citekey>
+    <bcf:citekey order="78" intorder="2">daleke2012general</bcf:citekey>
+    <bcf:citekey order="79" intorder="1">cole1998deciphering</bcf:citekey>
+    <bcf:citekey order="79" intorder="2">gey2006evolution</bcf:citekey>
+    <bcf:citekey order="80" intorder="1">hermans1992characterization</bcf:citekey>
+    <bcf:citekey order="80" intorder="2">cole1998deciphering</bcf:citekey>
+    <bcf:citekey order="80" intorder="3">gey2006evolution</bcf:citekey>
+    <bcf:citekey order="81" intorder="1">d2023pe</bcf:citekey>
+    <bcf:citekey order="82" intorder="1">d2023pe</bcf:citekey>
+    <bcf:citekey order="83" intorder="1">islam2017drug</bcf:citekey>
+    <bcf:citekey order="84" intorder="1">islam2017drug</bcf:citekey>
+    <bcf:citekey order="85" intorder="1">cui2016bioinformatics</bcf:citekey>
+    <bcf:citekey order="86" intorder="1">kanji2015characterization</bcf:citekey>
+    <bcf:citekey order="87" intorder="1">hang2019whole</bcf:citekey>
+    <bcf:citekey order="88" intorder="1">singh2016pe11</bcf:citekey>
+    <bcf:citekey order="89" intorder="1">meehan2018</bcf:citekey>
+    <bcf:citekey order="89" intorder="2">marin2022benchmarking</bcf:citekey>
+    <bcf:citekey order="89" intorder="3">modlin2021exact</bcf:citekey>
+    <bcf:citekey order="90" intorder="1">cui2016bioinformatics</bcf:citekey>
+    <bcf:citekey order="90" intorder="2">kanji2015characterization</bcf:citekey>
+    <bcf:citekey order="91" intorder="1">d2023pe</bcf:citekey>
+    <bcf:citekey order="92" intorder="1">marin2022benchmarking</bcf:citekey>
+    <bcf:citekey order="93" intorder="1">modlin2021exact</bcf:citekey>
+    <bcf:citekey order="94" intorder="1">marin2022benchmarking</bcf:citekey>
+    <bcf:citekey order="95" intorder="1">modlin2021exact</bcf:citekey>
+    <bcf:citekey order="96" intorder="1">marin2022benchmarking</bcf:citekey>
+    <bcf:citekey order="97" intorder="1">modlin2021exact</bcf:citekey>

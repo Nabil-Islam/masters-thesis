@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.3.6)  24 MAY 2026 03:07
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.3.6)  24 MAY 2026 04:44
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -791,6 +791,9 @@ Package csquotes Info: ... none found.
 
 LaTeX Warning: Label `fig:enter-label' multiply defined.
 
+
+LaTeX Warning: Label `fig:all_drugs' multiply defined.
+
 )
 \openout1 = `main.aux'.
 
@@ -985,7 +988,7 @@ File: figures/Screen Shot 2024-11-01 at 5.26.51 am.png Graphic file (type bmp)
 File: figures/who_snps.pdf Graphic file (type pdf)
 <use figures/who_snps.pdf>
 
-Overfull \hbox (18.71321pt too wide) in paragraph at lines 7--8
+Overfull \hbox (18.71321pt too wide) in paragraph at lines 6--7
  [][] 
  []
 
@@ -997,27 +1000,111 @@ File: figures/filt.drawio.pdf Graphic file (type pdf)
  [13]
 File: figures/train.drawio.pdf Graphic file (type pdf)
 <use figures/train.drawio.pdf>
-) [14] [15] [16] [17]
-Overfull \hbox (7.38522pt too wide) in paragraph at lines 32--32
+) (./chapters/04_results.tex [14]
+File: figures/sensitivity.pdf Graphic file (type pdf)
+<use figures/sensitivity.pdf>
+ [15]
+File: figures/specificity.pdf Graphic file (type pdf)
+<use figures/specificity.pdf>
+File: figures/f1.pdf Graphic file (type pdf)
+<use figures/f1.pdf>
+ [16]
+File: figures/who_confusion_matrices.pdf Graphic file (type pdf)
+<use figures/who_confusion_matrices.pdf>
+File: figures/who_learning_curves.pdf Graphic file (type pdf)
+<use figures/who_learning_curves.pdf>
+ [17] (./chapters/who_learning.tex
+File: figures/who_isoniazid_learning_curves.pdf Graphic file (type pdf)
+<use figures/who_isoniazid_learning_curves.pdf>
+File: figures/who_rifampicin_learning_curves.pdf Graphic file (type pdf)
+<use figures/who_rifampicin_learning_curves.pdf>
+File: figures/who_pyrazinamide_learning_curves.pdf Graphic file (type pdf)
+<use figures/who_pyrazinamide_learning_curves.pdf>
+File: figures/who_ethionamide_learning_curves.pdf Graphic file (type pdf)
+<use figures/who_ethionamide_learning_curves.pdf>
+File: figures/who_streptomycin_learning_curves.pdf Graphic file (type pdf)
+<use figures/who_streptomycin_learning_curves.pdf>
+File: figures/who_amikacin_learning_curves.pdf Graphic file (type pdf)
+<use figures/who_amikacin_learning_curves.pdf>
+File: figures/who_kanamycin_learning_curves.pdf Graphic file (type pdf)
+<use figures/who_kanamycin_learning_curves.pdf>
+File: figures/who_capreomycin_learning_curves.pdf Graphic file (type pdf)
+<use figures/who_capreomycin_learning_curves.pdf>
+ [18]
+File: figures/who_bedaquiline_learning_curves.pdf Graphic file (type pdf)
+<use figures/who_bedaquiline_learning_curves.pdf>
+File: figures/who_clofazimine_learning_curves.pdf Graphic file (type pdf)
+<use figures/who_clofazimine_learning_curves.pdf>
+File: figures/who_delamanid_learning_curves.pdf Graphic file (type pdf)
+<use figures/who_delamanid_learning_curves.pdf>
+File: figures/who_ethambutol_learning_curves.pdf Graphic file (type pdf)
+<use figures/who_ethambutol_learning_curves.pdf>
+ [19]
+File: figures/who_levofloxacin_learning_curves.pdf Graphic file (type pdf)
+<use figures/who_levofloxacin_learning_curves.pdf>
+File: figures/who_moxifloxacin_learning_curves.pdf Graphic file (type pdf)
+<use figures/who_moxifloxacin_learning_curves.pdf>
+File: figures/who_linezolid_learning_curves.pdf Graphic file (type pdf)
+<use figures/who_linezolid_learning_curves.pdf>
+) [20]
+File: figures/expert_rules_confusion_matrices.pdf Graphic file (type pdf)
+<use figures/expert_rules_confusion_matrices.pdf>
+File: figures/expert_rules_learning_curves.pdf Graphic file (type pdf)
+<use figures/expert_rules_learning_curves.pdf>
+ [21] (./chapters/er_learning.tex
+File: figures/expert_rules_isoniazid_learning_curves.pdf Graphic file (type pdf)
+<use figures/expert_rules_isoniazid_learning_curves.pdf>
+File: figures/expert_rules_rifampicin_learning_curves.pdf Graphic file (type pdf)
+<use figures/expert_rules_rifampicin_learning_curves.pdf>
+File: figures/expert_rules_pyrazinamide_learning_curves.pdf Graphic file (type pdf)
+<use figures/expert_rules_pyrazinamide_learning_curves.pdf>
+File: figures/expert_rules_ethionamide_learning_curves.pdf Graphic file (type pdf)
+<use figures/expert_rules_ethionamide_learning_curves.pdf>
+File: figures/expert_rules_streptomycin_learning_curves.pdf Graphic file (type pdf)
+<use figures/expert_rules_streptomycin_learning_curves.pdf>
+File: figures/expert_rules_amikacin_learning_curves.pdf Graphic file (type pdf)
+<use figures/expert_rules_amikacin_learning_curves.pdf>
+File: figures/expert_rules_kanamycin_learning_curves.pdf Graphic file (type pdf)
+<use figures/expert_rules_kanamycin_learning_curves.pdf>
+File: figures/expert_rules_capreomycin_learning_curves.pdf Graphic file (type pdf)
+<use figures/expert_rules_capreomycin_learning_curves.pdf>
+ [22]
+File: figures/expert_rules_bedaquiline_learning_curves.pdf Graphic file (type pdf)
+<use figures/expert_rules_bedaquiline_learning_curves.pdf>
+File: figures/expert_rules_clofazimine_learning_curves.pdf Graphic file (type pdf)
+<use figures/expert_rules_clofazimine_learning_curves.pdf>
+File: figures/expert_rules_delamanid_learning_curves.pdf Graphic file (type pdf)
+<use figures/expert_rules_delamanid_learning_curves.pdf>
+File: figures/expert_rules_ethambutol_learning_curves.pdf Graphic file (type pdf)
+<use figures/expert_rules_ethambutol_learning_curves.pdf>
+ [23]
+File: figures/expert_rules_levofloxacin_learning_curves.pdf Graphic file (type pdf)
+<use figures/expert_rules_levofloxacin_learning_curves.pdf>
+File: figures/expert_rules_moxifloxacin_learning_curves.pdf Graphic file (type pdf)
+<use figures/expert_rules_moxifloxacin_learning_curves.pdf>
+File: figures/expert_rules_linezolid_learning_curves.pdf Graphic file (type pdf)
+<use figures/expert_rules_linezolid_learning_curves.pdf>
+)) [24] [25] [26] [27]
+Overfull \hbox (7.38522pt too wide) in paragraph at lines 33--33
 \TU/TimesNewRoman(0)/m/n/12 Narechania A, Lemmer D, Croda J, and Andrews JR. Genomic variant-identification
  []
 
 
-Overfull \hbox (3.03159pt too wide) in paragraph at lines 32--32
+Overfull \hbox (3.03159pt too wide) in paragraph at lines 33--33
 \TU/TimesNewRoman(0)/m/n/12 informed pathogen surveillance in Africa: opportunities and challenges. The Lancet
  []
 
-[18]
-Overfull \hbox (2.18675pt too wide) in paragraph at lines 32--32
+
+Overfull \hbox (2.18675pt too wide) in paragraph at lines 33--33
 []\TU/TimesNewRoman(0)/m/n/12 Li H. Toward better understanding of artifacts in variant calling from high-coverage
  []
 
-
-Overfull \hbox (1.11574pt too wide) in paragraph at lines 32--32
+[28]
+Overfull \hbox (1.11574pt too wide) in paragraph at lines 33--33
 []\TU/TimesNewRoman(0)/m/n/12 Daleke MH, Ummels R, Bawono P, Heringa J, Vandenbroucke-Grauls CM, Luirink
  []
 
-[19] (./main.aux)
+[29] (./main.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
@@ -1027,18 +1114,18 @@ L3 programming layer <2026-01-19>
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 7F6D923715AECB60AF7FF06D921D2233;3698.
+(rerunfilecheck)             Checksum: 49FBA457771C165E03AAC1E4EB6C13EA;3777.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 33711 strings out of 469709
- 701632 string characters out of 5466024
- 1594238 words of memory out of 5000000
- 61851 multiletter control sequences out of 15000+600000
+ 34084 strings out of 469709
+ 719178 string characters out of 5466024
+ 1592786 words of memory out of 5000000
+ 62178 multiletter control sequences out of 15000+600000
  634510 words of font info for 99 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
- 89i,8n,107p,2350b,5045s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 89i,8n,107p,2350b,5042s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main.xdv (19 pages, 528940 bytes).
+Output written on main.xdv (29 pages, 555828 bytes).

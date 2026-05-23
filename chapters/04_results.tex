@@ -1,0 +1,65 @@
+% !TeX root = ../main.tex
+\section{Results}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=\textwidth]{figures/sensitivity.pdf}
+  \caption{Sensitivity of the neural network with tb-profiler as the baseline, WHO, and WHO augmented with
+  expert rules, and filtered is shown aswell. The naive pass with only the catalogues encoded as 1s , or 0s
+  is shown as empty circles, and the trained model results are filled in.}\label{fig:sens}
+\end{figure}
+
+\begin{figure}[H]
+  \begin{center}
+    \includegraphics[width=\textwidth]{figures/specificity.pdf}
+  \end{center}
+  \caption{Specificity of the neural network after training for 15 Anti-TB drugs that had at final confidence
+  grading of 1 or 2. TB-profiler (blue) acts as the baseline to show how the neural networks perform with different
+  weights. Weights were constructed from the WHO catalogue, and then augmented with expert rules and filtered snps.
+  These are represented as hollow circles, and after training, they are represented as filled circles.}\label{fig:spec}
+\end{figure}
+
+
+\begin{figure}[H]
+  \begin{center}
+    \includegraphics[width=\textwidth]{figures/f1.pdf}
+  \end{center}
+  \caption{F1 scores of the neural networks, with F1 being the balanced average between specificity and sensitivity.
+  In this plot, TB-profiler is used as a baseline, colored in blue, and the untrained networks with shown with hollow
+  circles. The trained models are shown with filled circles.}\label{fig:f1}
+\end{figure}
+
+
+\begin{figure}[H]
+  \begin{center}
+    \includegraphics[width=\textwidth]{figures/who_confusion_matrices.pdf}
+  \end{center}
+  \caption{Confusion matrix for 15 drugs for the WHO snp catalogue}\label{fig:whocm}
+\end{figure}
+
+\begin{figure}[H]
+  \begin{center}
+    \includegraphics[width=\textwidth]{figures/who_learning_curves.pdf}
+  \end{center}
+  \caption{Global learning curves for who catalogue.}\label{fig:wholr}
+\end{figure}
+
+\input{chapters/who_learning}
+
+
+\begin{figure}[H]
+  \begin{center}
+    \includegraphics[width=\textwidth]{figures/expert_rules_confusion_matrices.pdf}
+  \end{center}
+  \caption{Confusion matrix for er+who catalogue.}\label{fig:ercm}
+\end{figure}
+
+
+\begin{figure}[H]
+  \begin{center}
+    \includegraphics[width=\textwidth]{figures/expert_rules_learning_curves.pdf}
+  \end{center}
+  \caption{Global learning curves for er+who catalogue.}\label{fig:erlr}
+\end{figure}
+
+\input{chapters/er_learning}
