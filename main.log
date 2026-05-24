@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.3.6)  24 MAY 2026 04:44
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.3.6)  24 MAY 2026 15:31
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -792,6 +792,12 @@ Package csquotes Info: ... none found.
 LaTeX Warning: Label `fig:enter-label' multiply defined.
 
 
+LaTeX Warning: Label `fig:erlr' multiply defined.
+
+
+LaTeX Warning: Label `fig:all_drugs' multiply defined.
+
+
 LaTeX Warning: Label `fig:all_drugs' multiply defined.
 
 )
@@ -1006,14 +1012,24 @@ File: figures/sensitivity.pdf Graphic file (type pdf)
  [15]
 File: figures/specificity.pdf Graphic file (type pdf)
 <use figures/specificity.pdf>
+ [16]
 File: figures/f1.pdf Graphic file (type pdf)
 <use figures/f1.pdf>
- [16]
 File: figures/who_confusion_matrices.pdf Graphic file (type pdf)
 <use figures/who_confusion_matrices.pdf>
+ [17]
+File: figures/expert_rules_confusion_matrices.pdf Graphic file (type pdf)
+<use figures/expert_rules_confusion_matrices.pdf>
+File: figures/filtered_expert_rules_confusion_matrices.pdf Graphic file (type pdf)
+<use figures/filtered_expert_rules_confusion_matrices.pdf>
+ [18]
 File: figures/who_learning_curves.pdf Graphic file (type pdf)
 <use figures/who_learning_curves.pdf>
- [17] (./chapters/who_learning.tex
+File: figures/expert_rules_learning_curves.pdf Graphic file (type pdf)
+<use figures/expert_rules_learning_curves.pdf>
+File: figures/filtered_expert_rules_learning_curves.pdf Graphic file (type pdf)
+<use figures/filtered_expert_rules_learning_curves.pdf>
+ [19] (./chapters/who_learning.tex
 File: figures/who_isoniazid_learning_curves.pdf Graphic file (type pdf)
 <use figures/who_isoniazid_learning_curves.pdf>
 File: figures/who_rifampicin_learning_curves.pdf Graphic file (type pdf)
@@ -1030,7 +1046,7 @@ File: figures/who_kanamycin_learning_curves.pdf Graphic file (type pdf)
 <use figures/who_kanamycin_learning_curves.pdf>
 File: figures/who_capreomycin_learning_curves.pdf Graphic file (type pdf)
 <use figures/who_capreomycin_learning_curves.pdf>
- [18]
+ [20]
 File: figures/who_bedaquiline_learning_curves.pdf Graphic file (type pdf)
 <use figures/who_bedaquiline_learning_curves.pdf>
 File: figures/who_clofazimine_learning_curves.pdf Graphic file (type pdf)
@@ -1039,19 +1055,14 @@ File: figures/who_delamanid_learning_curves.pdf Graphic file (type pdf)
 <use figures/who_delamanid_learning_curves.pdf>
 File: figures/who_ethambutol_learning_curves.pdf Graphic file (type pdf)
 <use figures/who_ethambutol_learning_curves.pdf>
- [19]
+ [21]
 File: figures/who_levofloxacin_learning_curves.pdf Graphic file (type pdf)
 <use figures/who_levofloxacin_learning_curves.pdf>
 File: figures/who_moxifloxacin_learning_curves.pdf Graphic file (type pdf)
 <use figures/who_moxifloxacin_learning_curves.pdf>
 File: figures/who_linezolid_learning_curves.pdf Graphic file (type pdf)
 <use figures/who_linezolid_learning_curves.pdf>
-) [20]
-File: figures/expert_rules_confusion_matrices.pdf Graphic file (type pdf)
-<use figures/expert_rules_confusion_matrices.pdf>
-File: figures/expert_rules_learning_curves.pdf Graphic file (type pdf)
-<use figures/expert_rules_learning_curves.pdf>
- [21] (./chapters/er_learning.tex
+) (./chapters/er_learning.tex
 File: figures/expert_rules_isoniazid_learning_curves.pdf Graphic file (type pdf)
 <use figures/expert_rules_isoniazid_learning_curves.pdf>
 File: figures/expert_rules_rifampicin_learning_curves.pdf Graphic file (type pdf)
@@ -1060,6 +1071,7 @@ File: figures/expert_rules_pyrazinamide_learning_curves.pdf Graphic file (type p
 <use figures/expert_rules_pyrazinamide_learning_curves.pdf>
 File: figures/expert_rules_ethionamide_learning_curves.pdf Graphic file (type pdf)
 <use figures/expert_rules_ethionamide_learning_curves.pdf>
+ [22] [23]
 File: figures/expert_rules_streptomycin_learning_curves.pdf Graphic file (type pdf)
 <use figures/expert_rules_streptomycin_learning_curves.pdf>
 File: figures/expert_rules_amikacin_learning_curves.pdf Graphic file (type pdf)
@@ -1068,7 +1080,7 @@ File: figures/expert_rules_kanamycin_learning_curves.pdf Graphic file (type pdf)
 <use figures/expert_rules_kanamycin_learning_curves.pdf>
 File: figures/expert_rules_capreomycin_learning_curves.pdf Graphic file (type pdf)
 <use figures/expert_rules_capreomycin_learning_curves.pdf>
- [22]
+ [24]
 File: figures/expert_rules_bedaquiline_learning_curves.pdf Graphic file (type pdf)
 <use figures/expert_rules_bedaquiline_learning_curves.pdf>
 File: figures/expert_rules_clofazimine_learning_curves.pdf Graphic file (type pdf)
@@ -1077,14 +1089,95 @@ File: figures/expert_rules_delamanid_learning_curves.pdf Graphic file (type pdf)
 <use figures/expert_rules_delamanid_learning_curves.pdf>
 File: figures/expert_rules_ethambutol_learning_curves.pdf Graphic file (type pdf)
 <use figures/expert_rules_ethambutol_learning_curves.pdf>
- [23]
+ [25]
 File: figures/expert_rules_levofloxacin_learning_curves.pdf Graphic file (type pdf)
 <use figures/expert_rules_levofloxacin_learning_curves.pdf>
 File: figures/expert_rules_moxifloxacin_learning_curves.pdf Graphic file (type pdf)
 <use figures/expert_rules_moxifloxacin_learning_curves.pdf>
 File: figures/expert_rules_linezolid_learning_curves.pdf Graphic file (type pdf)
 <use figures/expert_rules_linezolid_learning_curves.pdf>
-)) [24] [25] [26] [27]
+) (./chapters/filtlr.tex
+File: figures/filtered_expert_rules_isoniazid_learning_curves.pdf Graphic file (type pdf)
+<use figures/filtered_expert_rules_isoniazid_learning_curves.pdf>
+File: figures/filtered_expert_rules_rifampicin_learning_curves.pdf Graphic file (type pdf)
+<use figures/filtered_expert_rules_rifampicin_learning_curves.pdf>
+File: figures/filtered_expert_rules_pyrazinamide_learning_curves.pdf Graphic file (type pdf)
+<use figures/filtered_expert_rules_pyrazinamide_learning_curves.pdf>
+File: figures/filtered_expert_rules_ethionamide_learning_curves.pdf Graphic file (type pdf)
+<use figures/filtered_expert_rules_ethionamide_learning_curves.pdf>
+ [26] [27]
+File: figures/filtered_expert_rules_streptomycin_learning_curves.pdf Graphic file (type pdf)
+<use figures/filtered_expert_rules_streptomycin_learning_curves.pdf>
+File: figures/filtered_expert_rules_amikacin_learning_curves.pdf Graphic file (type pdf)
+<use figures/filtered_expert_rules_amikacin_learning_curves.pdf>
+File: figures/filtered_expert_rules_kanamycin_learning_curves.pdf Graphic file (type pdf)
+<use figures/filtered_expert_rules_kanamycin_learning_curves.pdf>
+File: figures/filtered_expert_rules_capreomycin_learning_curves.pdf Graphic file (type pdf)
+<use figures/filtered_expert_rules_capreomycin_learning_curves.pdf>
+ [28]
+File: figures/filtered_expert_rules_bedaquiline_learning_curves.pdf Graphic file (type pdf)
+<use figures/filtered_expert_rules_bedaquiline_learning_curves.pdf>
+File: figures/filtered_expert_rules_clofazimine_learning_curves.pdf Graphic file (type pdf)
+<use figures/filtered_expert_rules_clofazimine_learning_curves.pdf>
+File: figures/filtered_expert_rules_delamanid_learning_curves.pdf Graphic file (type pdf)
+<use figures/filtered_expert_rules_delamanid_learning_curves.pdf>
+File: figures/filtered_expert_rules_ethambutol_learning_curves.pdf Graphic file (type pdf)
+<use figures/filtered_expert_rules_ethambutol_learning_curves.pdf>
+ [29]
+File: figures/filtered_expert_rules_levofloxacin_learning_curves.pdf Graphic file (type pdf)
+<use figures/filtered_expert_rules_levofloxacin_learning_curves.pdf>
+File: figures/filtered_expert_rules_moxifloxacin_learning_curves.pdf Graphic file (type pdf)
+<use figures/filtered_expert_rules_moxifloxacin_learning_curves.pdf>
+File: figures/filtered_expert_rules_linezolid_learning_curves.pdf Graphic file (type pdf)
+<use figures/filtered_expert_rules_linezolid_learning_curves.pdf>
+) [30]
+File: figures/plots/amikacin_volcano.pdf Graphic file (type pdf)
+<use figures/plots/amikacin_volcano.pdf>
+File: figures/plots/capreomycin_volcano.pdf Graphic file (type pdf)
+<use figures/plots/capreomycin_volcano.pdf>
+File: figures/plots/clofazimine_volcano.pdf Graphic file (type pdf)
+<use figures/plots/clofazimine_volcano.pdf>
+File: figures/plots/ethambutol_volcano.pdf Graphic file (type pdf)
+<use figures/plots/ethambutol_volcano.pdf>
+File: figures/plots/ethionamide_volcano.pdf Graphic file (type pdf)
+<use figures/plots/ethionamide_volcano.pdf>
+File: figures/plots/isoniazid_volcano.pdf Graphic file (type pdf)
+<use figures/plots/isoniazid_volcano.pdf>
+File: figures/plots/kanamycin_volcano.pdf Graphic file (type pdf)
+<use figures/plots/kanamycin_volcano.pdf>
+ [31]
+File: figures/plots/levofloxacin_volcano.pdf Graphic file (type pdf)
+<use figures/plots/levofloxacin_volcano.pdf>
+File: figures/plots/moxifloxacin_volcano.pdf Graphic file (type pdf)
+<use figures/plots/moxifloxacin_volcano.pdf>
+File: figures/plots/rifampicin_volcano.pdf Graphic file (type pdf)
+<use figures/plots/rifampicin_volcano.pdf>
+File: figures/plots/streptomycin_volcano.pdf Graphic file (type pdf)
+<use figures/plots/streptomycin_volcano.pdf>
+File: figures/plots/bedaquiline_volcano.pdf Graphic file (type pdf)
+<use figures/plots/bedaquiline_volcano.pdf>
+File: figures/plots/ciprofloxacin_volcano.pdf Graphic file (type pdf)
+<use figures/plots/ciprofloxacin_volcano.pdf>
+File: figures/plots/cycloserine_volcano.pdf Graphic file (type pdf)
+<use figures/plots/cycloserine_volcano.pdf>
+File: figures/plots/delamanid_volcano.pdf Graphic file (type pdf)
+<use figures/plots/delamanid_volcano.pdf>
+File: figures/plots/gatifloxacin_volcano.pdf Graphic file (type pdf)
+<use figures/plots/gatifloxacin_volcano.pdf>
+ [32] [33]
+File: figures/plots/linezolid_volcano.pdf Graphic file (type pdf)
+<use figures/plots/linezolid_volcano.pdf>
+File: figures/plots/ofloxacin_volcano.pdf Graphic file (type pdf)
+<use figures/plots/ofloxacin_volcano.pdf>
+File: figures/plots/para-aminosalicylic_acid_volcano.pdf Graphic file (type pdf)
+<use figures/plots/para-aminosalicylic_acid_volcano.pdf>
+File: figures/plots/pyrazinamide_volcano.pdf Graphic file (type pdf)
+<use figures/plots/pyrazinamide_volcano.pdf>
+File: figures/plots/rifabutin_volcano.pdf Graphic file (type pdf)
+<use figures/plots/rifabutin_volcano.pdf>
+File: figures/plots/pyrazinamide_volcano.pdf Graphic file (type pdf)
+<use figures/plots/pyrazinamide_volcano.pdf>
+ [34]) [35] [36] [37]
 Overfull \hbox (7.38522pt too wide) in paragraph at lines 33--33
 \TU/TimesNewRoman(0)/m/n/12 Narechania A, Lemmer D, Croda J, and Andrews JR. Genomic variant-identification
  []
@@ -1099,12 +1192,12 @@ Overfull \hbox (2.18675pt too wide) in paragraph at lines 33--33
 []\TU/TimesNewRoman(0)/m/n/12 Li H. Toward better understanding of artifacts in variant calling from high-coverage
  []
 
-[28]
+[38]
 Overfull \hbox (1.11574pt too wide) in paragraph at lines 33--33
 []\TU/TimesNewRoman(0)/m/n/12 Daleke MH, Ummels R, Bawono P, Heringa J, Vandenbroucke-Grauls CM, Luirink
  []
 
-[29] (./main.aux)
+[39] (./main.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
@@ -1114,18 +1207,18 @@ L3 programming layer <2026-01-19>
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 49FBA457771C165E03AAC1E4EB6C13EA;3777.
+(rerunfilecheck)             Checksum: A784E03F27078A1AE1D603DA3ADB0C23;5869.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 34084 strings out of 469709
- 719178 string characters out of 5466024
- 1592786 words of memory out of 5000000
- 62178 multiletter control sequences out of 15000+600000
+ 34439 strings out of 469709
+ 737515 string characters out of 5466024
+ 1595048 words of memory out of 5000000
+ 62491 multiletter control sequences out of 15000+600000
  634510 words of font info for 99 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
  89i,8n,107p,2350b,5042s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main.xdv (29 pages, 555828 bytes).
+Output written on main.xdv (39 pages, 587024 bytes).

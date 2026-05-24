@@ -1,6 +1,9 @@
 % !TeX root = ../main.tex
 \section{Results}
 
+\subsection{Model Diagnostic Performance}
+
+\subsubsection{Sensitivity}
 \begin{figure}[H]
   \centering
   \includegraphics[width=\textwidth]{figures/sensitivity.pdf}
@@ -9,6 +12,7 @@
   is shown as empty circles, and the trained model results are filled in.}\label{fig:sens}
 \end{figure}
 
+\subsubsection{Specificity}
 \begin{figure}[H]
   \begin{center}
     \includegraphics[width=\textwidth]{figures/specificity.pdf}
@@ -19,7 +23,7 @@
   These are represented as hollow circles, and after training, they are represented as filled circles.}\label{fig:spec}
 \end{figure}
 
-
+\subsubsection{F1 Score}
 \begin{figure}[H]
   \begin{center}
     \includegraphics[width=\textwidth]{figures/f1.pdf}
@@ -29,6 +33,7 @@
   circles. The trained models are shown with filled circles.}\label{fig:f1}
 \end{figure}
 
+\subsection{Classification Performance Across Weight Schemes}
 
 \begin{figure}[H]
   \begin{center}
@@ -39,21 +44,26 @@
 
 \begin{figure}[H]
   \begin{center}
-    \includegraphics[width=\textwidth]{figures/who_learning_curves.pdf}
-  \end{center}
-  \caption{Global learning curves for who catalogue.}\label{fig:wholr}
-\end{figure}
-
-\input{chapters/who_learning}
-
-
-\begin{figure}[H]
-  \begin{center}
     \includegraphics[width=\textwidth]{figures/expert_rules_confusion_matrices.pdf}
   \end{center}
   \caption{Confusion matrix for er+who catalogue.}\label{fig:ercm}
 \end{figure}
 
+\begin{figure}[H]
+  \begin{center}
+    \includegraphics[width=\textwidth]{figures/filtered_expert_rules_confusion_matrices.pdf}
+  \end{center}
+  \caption{Confusion matrix for er+who+filt catalogue.}\label{fig:filtcm}
+\end{figure}
+
+\subsection{Training and Validation Convergence}
+
+\begin{figure}[H]
+  \begin{center}
+    \includegraphics[width=\textwidth]{figures/who_learning_curves.pdf}
+  \end{center}
+  \caption{Global learning curves for who catalogue.}\label{fig:wholr}
+\end{figure}
 
 \begin{figure}[H]
   \begin{center}
@@ -62,4 +72,125 @@
   \caption{Global learning curves for er+who catalogue.}\label{fig:erlr}
 \end{figure}
 
+\begin{figure}[H]
+  \begin{center}
+    \includegraphics[width=\textwidth]{figures/filtered_expert_rules_learning_curves.pdf}
+  \end{center}
+  \caption{Global learning curves for er+who catalogue.}\label{fig:erlr}
+\end{figure}
+
+
+
+\subsection{Per-drug Learning Curves}
+\input{chapters/who_learning}
 \input{chapters/er_learning}
+\input{chapters/filtlr}
+
+
+\subsection{Feature Ablation and SNP Refinement}
+\subsubsection{Drugs with reduced sensitivity post-ablation}
+\begin{figure}[H]
+    \centering
+    \begin{subfigure}{0.45\textwidth}
+        \includegraphics[width=\textwidth]{figures/plots/amikacin_volcano.pdf}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}{0.45\textwidth}
+        \includegraphics[width=\textwidth]{figures/plots/capreomycin_volcano.pdf}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}{0.45\textwidth}
+        \includegraphics[width=\textwidth]{figures/plots/clofazimine_volcano.pdf}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}{0.45\textwidth}
+        \includegraphics[width=\textwidth]{figures/plots/ethambutol_volcano.pdf}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}{0.45\textwidth}
+        \includegraphics[width=\textwidth]{figures/plots/ethionamide_volcano.pdf}
+    \end{subfigure}
+     \hfill
+    \begin{subfigure}{0.45\textwidth}
+        \includegraphics[width=\textwidth]{figures/plots/isoniazid_volcano.pdf}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}{0.45\textwidth}
+        \includegraphics[width=\textwidth]{figures/plots/kanamycin_volcano.pdf}
+    \end{subfigure}
+
+\end{figure}
+
+\begin{figure}
+  \continuedfloat
+  \begin{subfigure}{0.45\textwidth}
+      \includegraphics[width=\textwidth]{figures/plots/levofloxacin_volcano.pdf}
+  \end{subfigure}
+    \hfill
+  \begin{subfigure}{0.45\textwidth}
+      \includegraphics[width=\textwidth]{figures/plots/moxifloxacin_volcano.pdf}
+  \end{subfigure}
+    \hfill
+  \begin{subfigure}{0.45\textwidth}
+      \includegraphics[width=\textwidth]{figures/plots/rifampicin_volcano.pdf}
+  \end{subfigure}
+    \hfill
+  \begin{subfigure}{0.45\textwidth}
+      \includegraphics[width=\textwidth]{figures/plots/streptomycin_volcano.pdf}
+  \end{subfigure}
+\end{figure}
+
+\subsubsection{Drugs with no change post-ablation}
+\begin{figure}[H]
+    \centering
+    \begin{subfigure}{0.45\textwidth}
+        \includegraphics[width=\textwidth]{figures/plots/bedaquiline_volcano.pdf}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}{0.45\textwidth}
+        \includegraphics[width=\textwidth]{figures/plots/ciprofloxacin_volcano.pdf}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}{0.45\textwidth}
+        \includegraphics[width=\textwidth]{figures/plots/cycloserine_volcano.pdf}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}{0.45\textwidth}
+        \includegraphics[width=\textwidth]{figures/plots/delamanid_volcano.pdf}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}{0.45\textwidth}
+        \includegraphics[width=\textwidth]{figures/plots/gatifloxacin_volcano.pdf}
+    \end{subfigure}
+
+\end{figure}
+
+\begin{figure}[H]
+  \continuedfloat
+  \begin{subfigure}{0.45\textwidth}
+      \includegraphics[width=\textwidth]{figures/plots/linezolid_volcano.pdf}
+  \end{subfigure}
+    \hfill
+  \begin{subfigure}{0.45\textwidth}
+      \includegraphics[width=\textwidth]{figures/plots/ofloxacin_volcano.pdf}
+  \end{subfigure}
+    \hfill
+  \begin{subfigure}{0.45\textwidth}
+      \includegraphics[width=\textwidth]{figures/plots/para-aminosalicylic_acid_volcano.pdf}
+  \end{subfigure}
+    \hfill
+  \begin{subfigure}{0.45\textwidth}
+      \includegraphics[width=\textwidth]{figures/plots/pyrazinamide_volcano.pdf}
+  \end{subfigure}
+    \hfill
+  \begin{subfigure}{0.45\textwidth}
+      \includegraphics[width=\textwidth]{figures/plots/rifabutin_volcano.pdf}
+  \end{subfigure}
+    \hfill
+  \begin{subfigure}{0.45\textwidth}
+      \includegraphics[width=\textwidth]{figures/plots/pyrazinamide_volcano.pdf}
+  \end{subfigure}
+\end{figure}
+
+
+
