@@ -38,7 +38,7 @@ The University of Melbourne}
   \begin{frame}\maketitle\end{frame}
 \end{noheadline}
 
-\begin{frame}{What is Tuberculosis(TB)?}
+\begin{frame}{Tuberculosis - at a glance}
   \begin{figure}
     \begin{subfigure}[c]{0.45\textwidth}
       \includegraphics[width=\textwidth]{./figures/11301-tuberculosis.jpg}
@@ -52,7 +52,7 @@ The University of Melbourne}
   \end{figure}
 \end{frame}
 
-\begin{frame}{The burden of TB}
+\begin{frame}{Tuberculosis - at a glance}
   \begin{figure}
     \begin{subfigure}[c]{\textwidth}
       \includegraphics[width=\textwidth]{./figures/tb-incidence.png}
@@ -61,7 +61,7 @@ The University of Melbourne}
   \end{figure}
 \end{frame}
 
-\begin{frame}{Drug resistance cases}
+\begin{frame}{Drug resistance - Cases}
   \begin{figure}
     \begin{subfigure}[c]{\textwidth}
       \includegraphics[width=\textwidth]{./figures/mdr.png}
@@ -70,7 +70,7 @@ The University of Melbourne}
   \end{figure}
 \end{frame}
 
-\begin{frame}{TB treatment regimen}
+\begin{frame}{Drug resistance - Classification}
   \begin{figure}
     \begin{subfigure}[c]{\textwidth}
       \centering
@@ -80,6 +80,10 @@ The University of Melbourne}
 \end{frame}
 
 \begin{frame}{Current WGS pipeline}
+  \begin{itemize}
+    \item Phenotypic methods are slow ($\approx$ 2 weeks)
+    \item Genotypic assays are not comprehensive
+  \end{itemize}
   \begin{figure}
     \begin{subfigure}[c]{\textwidth}
       \centering
@@ -116,6 +120,23 @@ The University of Melbourne}
 \end{frame}
 
 \begin{frame}{Converting the SNP catalogue for an NN}
+  \centering
+  \begin{tabular}{|c|c|}
+    \hline
+    Group & Classification \\
+    \arrayrulecolor{red}\hline
+    1 & Assoc R \\
+    \arrayrulecolor{red}\hline
+    2 & Assoc w R-interim \\
+    \arrayrulecolor{red}\hline
+    3 & Uncertain significance \\
+    \arrayrulecolor{black}\hline
+    4 & Not assoc with R-interim \\
+    \hline
+    5 & Not assoc with R \\
+    \hline
+  \end{tabular}
+  \vskip 2em
   \includegraphics[width=\textwidth]{../figures/who_snps.drawio.pdf}
 \end{frame}
 
@@ -319,94 +340,182 @@ The University of Melbourne}
 \end{frame}
 
 % Results
-\begin{frame}{Diagnostic accuracy (Sensitivity)}
+\begin{frame}{Model performance (Sensitivity)}
   \includegraphics[width=\textwidth]{../figures/sensitivity.pdf}
 \end{frame}
 
-\begin{frame}{Diagnostic accuracy (Specificity)}
+\begin{frame}{Model performance (Specificity)}
   \includegraphics[width=\textwidth]{../figures/specificity.pdf}
 \end{frame}
 
-\begin{frame}{Diagnostic accuracy (F1 Score)}
-  \includegraphics[width=\textwidth]{../figures/f1.pdf}
-\end{frame}
 
 \begin{frame}{Learning performance for augmented WHO catalogue} 
-  \includegraphics[width=\textwidth]{../figures/filtered_expert_rules_learning_curves.pdf} 
-\end{frame}
-
-
-\begin{frame}{SNP ablation - changed sensitivity}
   \begin{figure}[H]
     \centering
     \begin{subfigure}{0.45\textwidth}
-      \includegraphics[width=\textwidth]{../figures/plots/amikacin_volcano.pdf}
+      \includegraphics[width=\textwidth]{../figures/filtlearnA.png}
     \end{subfigure}
     \hfill
     \begin{subfigure}{0.45\textwidth}
-      \includegraphics[width=\textwidth]{../figures/plots/capreomycin_volcano.pdf}
+      \includegraphics[width=\textwidth]{../figures/filtlearnB.png}
     \end{subfigure}
     \hfill
     \begin{subfigure}{0.45\textwidth}
-      \includegraphics[width=\textwidth]{../figures/plots/clofazimine_volcano.pdf}
+      \includegraphics[width=\textwidth]{../figures/filtlearnC.png}
+    \end{subfigure}
+  \end{figure}
+\end{frame}
+
+\begin{frame}{Candidate mutations - first-line drugs}
+  \begin{figure}[H]
+    \centering
+    \begin{subfigure}{0.45\textwidth}
+      \includegraphics[width=\textwidth]{../figures/plots/isoniazid_volcano.pdf}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}{0.45\textwidth}
+      \includegraphics[width=\textwidth]{../figures/plots/rifampicin_volcano.pdf}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}{0.45\textwidth}
+      \includegraphics[width=\textwidth]{../figures/plots/pyrazinamide_volcano.pdf}
     \end{subfigure}
     \hfill
     \begin{subfigure}{0.45\textwidth}
       \includegraphics[width=\textwidth]{../figures/plots/ethambutol_volcano.pdf}
     \end{subfigure}
     \hfill
-
-
   \end{figure}
 \end{frame}
 
-\begin{frame}{SNP ablation - changed sensitivity}
+\begin{frame}{Candidate mutations - second-line group A}
   \begin{figure}[H]
-    \centering{}
+    \centering
+    \begin{subfigure}{0.45\textwidth}
+      \includegraphics[width=\textwidth]{../figures/plots/levofloxacin_volcano.pdf}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}{0.45\textwidth}
+      \includegraphics[width=\textwidth]{../figures/plots/moxifloxacin_volcano.pdf}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}{0.45\textwidth}
+      \includegraphics[width=\textwidth]{../figures/plots/bedaquiline_volcano.pdf}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}{0.45\textwidth}
+      \includegraphics[width=\textwidth]{../figures/plots/linezolid_volcano.pdf}
+    \end{subfigure}
+    \hfill
+  \end{figure}
+\end{frame}
 
+
+\begin{frame}{Candidate mutations - second-line group B}
+  \begin{figure}[H]
+    \centering
+    \begin{subfigure}{0.45\textwidth}
+      \includegraphics[width=\textwidth]{../figures/plots/clofazimine_volcano.pdf}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}{0.45\textwidth}
+      \includegraphics[width=\textwidth]{../figures/plots/cycloserine_volcano.pdf}
+    \end{subfigure}
+    \hfill
+    \vskip 2em
+    Terizidone not included in our dataset. 
+    \hfill
+  \end{figure}
+\end{frame}
+
+\begin{frame}{Candidate mutations - second-line group C}
+  \begin{figure}[H]
+    \centering
+    \begin{subfigure}{0.45\textwidth}
+      \includegraphics[width=\textwidth]{../figures/plots/delamanid_volcano.pdf}
+    \end{subfigure}
+    \hfill
     \begin{subfigure}{0.45\textwidth}
       \includegraphics[width=\textwidth]{../figures/plots/ethionamide_volcano.pdf}
     \end{subfigure}
     \hfill
     \begin{subfigure}{0.45\textwidth}
-      \includegraphics[width=\textwidth]{../figures/plots/isoniazid_volcano.pdf}
+      \includegraphics[width=\textwidth]{../figures/plots/amikacin_volcano.pdf}
     \end{subfigure}
     \hfill
     \begin{subfigure}{0.45\textwidth}
-      \includegraphics[width=\textwidth]{../figures/plots/kanamycin_volcano.pdf}
+      \includegraphics[width=\textwidth]{../figures/plots/para-aminosalicylic_acid_volcano.pdf}
     \end{subfigure}
   \end{figure}
-
 \end{frame}
 
-\begin{frame}{Clinical interpretation}
+\begin{frame}{Candidate mutations - second-line group C}
+  \begin{itemize}{\large 
+      \item Two second-line, group C drugs not in our dataset
+        \begin{itemize}
+          \item Pretomanid
+          \item Prothionamide 
+        \end{itemize}
+      }
+  \end{itemize}
+\end{frame}
+
+
+\begin{frame}{Model performance}
   \begin{itemize}
-    \item High sensitivity prioritised over specificity because we aimed to reduce FNs
+    \item Model converges rapidly
+    \item Catalogue-weighted model's \textbf{sensitivity} outperformed or matched TB-Profiler (baseline) - $13/15$ drugs
+    \item For 14/15 drugs, \textbf{sensitivity} \textit{improved} after training and threshold application
+    \item There was a trade-off in \textbf{specificity}, with a floor of 0.8 during threshold sweeps
       \begin{itemize}
-        \item Lower FNs $\implies$ $\uparrow$ TPR $\implies$ $\downarrow$ Missed resistant cases
-        \item Lower Spec. $\implies$ $\uparrow$ FPs $\implies$ Susceptible cases treated as resistant
+        \item $\uparrow$ Sens. $\implies$ $\uparrow$ TPR $\implies$ $\downarrow$ Missed R cases
+        \item $\downarrow$ Spec. $\implies$ $\uparrow$ FPR $\implies$ $\uparrow$ Missed S cases
       \end{itemize}
-    \item False negatives in drug resistance predictions may result in ineffective treatment
-      \begin{itemize}
-        \item Patient administered drug that the M.tb sample is resistant to $\implies$ Poorer health outcomes
-      \end{itemize}
-    \item Catalogue-weighted schemes outperformed or matched TB-Profiler (baseline) for $14/15$ drugs
   \end{itemize}
 \end{frame}
 
 \begin{frame}{Ablation biological significance}
   \begin{itemize}
-    \item SNPs retained post-ablation are consistent with known resistance mechanisms
-    \item Novel candidate SNPs have been identified in $3/4$ first-line drugs
-  \end{itemize}
+    \item In $3/4$ 1st-line drugs, SNPs found that \textit{improved} \textbf{sensitivity} (compared to non-ablated baseline)
+      \begin{itemize}
+        \item \textbf{H} - \textit{katG} and \textit{rpoB} 
+        \item \textbf{R} - \textit{rpoB} (drug target gene)
+        \item \textbf{E} - \textit{rpoB} , \textit{katG} , \textit{embB} (drug target gene)
+      \end{itemize}
+    \item For 2nd-line drugs:
+      \begin{itemize}
+        \item \textbf{FQs} - Both LFX and MFX found ablated SNPs in \textit{gyrA} (drug target gene)
+        \item \textbf{CFZ} - Ablated SNPs of unknown function 
+        \item \textbf{ETO} - \textit{inhA} T>G, possible \textbf{cross-resistance} 
+      \end{itemize}
+    \item Potential confounders - \textit{rpoB} C>T, \textit{katG} C>G 
+      \end{itemize}
+\end{frame}
 
+\begin{frame}{Candidate Mutations}
+  \begin{itemize}
+    \item 1st-line drugs $\rightarrow$ highly populated plots (top-right quad.)
+      \begin{itemize}
+        \item Selection pressure over decades of use
+        \item Possible compensatory mutations 
+      \end{itemize}
+    \item 2nd-line drugs $\rightarrow$ sparsely populated (with exceptions)
+      \begin{itemize}
+        \item Class imbalance $\rightarrow$ Cannot pass filters
+        \item Newer drugs (BDQ, LZD) $\rightarrow$ Few R samples
+        \item \textbf{Exception} - ETO $\rightarrow$ INH-ETO cross-resistance, linked mechanisms
+      \end{itemize}
+  \end{itemize}
 \end{frame}
 
 \begin{frame}{Limitations}
   \begin{itemize}
     \item Training data lacks resistant cases for newer drugs
-    \item Class imbalance in resistant sample for BDQ, LZD, DLM, CFZ
-    \item Model validated on same data as training
+      \begin{itemize}
+        \item Class imbalances for BDQ, LZD, DLM, CFZ
+        \item No data for TD, PA, or PTO
+      \end{itemize}
+      \item Linear model unable to detect complex mechanisms (cross-resistance)
   \end{itemize}
 \end{frame}
 
@@ -415,8 +524,7 @@ The University of Melbourne}
     \item Validation from external cohort (CRyPTIC consortium, MIRU-VNTR)
     \item Lineage stratification for evaluation 
     \item Wet-lab validation of novel SNPs
-    \item Implement different network architechture (XGBoost, hidden layers for shared mechanisms (inhA), etc.)
-    \item Deployment study - measure real-world clinical outcomes vs rule-based AMR prediction tools (TB-Profiler)
+    \item Implement different network architechture (Hidden layers for shared mechanisms (ETO-INH), etc.)
   \end{itemize}
 \end{frame}
 
@@ -439,6 +547,9 @@ The University of Melbourne}
   \end{minipage}
 \end{frame}
 
+\begin{frame}{Supplementary Figure (F1 Score)}
+  \includegraphics[width=\textwidth]{../figures/f1.pdf}
+\end{frame}
 
 % Using footnote citations, no references page
 % \begin{frame}[t,allowframebreaks]{References}
