@@ -515,16 +515,36 @@ The University of Melbourne}
         \item Class imbalances for BDQ, LZD, DLM, CFZ
         \item No data for TD, PA, or PTO
       \end{itemize}
-      \item Linear model unable to detect complex mechanisms (cross-resistance)
+    \item Model rapidly converges $\rightarrow$ rapidly hits \textbf{representational capacity}
+      \begin{itemize}
+        \item May not learn cross-resistance or pleiotropic R mechanisms
+      \end{itemize}
+    \item SNP filtering needs to be more robust
+    \begin{itemize}
+      \item Flag and remove confounders
+      \item Comprehensive screening and flagging of lineage patterns 
+    \end{itemize}
+  \item Possible relaxation of filtering significance threshold
+    \begin{itemize}
+      \item $-\log_{10}(p) \geq 5$ - maybe too stringent for newer drugs
+    \end{itemize}
   \end{itemize}
 \end{frame}
 
 \begin{frame}{Next steps}
   \begin{itemize}
+    \item \textit{Update} the dataset for newer drugs
+    \begin{itemize}
+      \item Phenotypic R data for TD, PA, and PTO
+      \item More R data for BDQ, LZD, DLM, and CFZ
+      \begin{itemize}
+        \item BPaLM - promising 
+      \end{itemize}
+    \end{itemize}
     \item Validation from external cohort (CRyPTIC consortium, MIRU-VNTR)
     \item Lineage stratification for evaluation 
-    \item Wet-lab validation of novel SNPs
-    \item Implement different network architechture (Hidden layers for shared mechanisms (ETO-INH), etc.)
+    \item Wet-lab validation of candidate SNPs $\rightarrow$ possibly included in future \textbf{catalogues} or \textbf{AMR prediction tools}
+    \item Implement different network architecture (Hidden layers for shared mechanisms (ETO-INH), etc.)
   \end{itemize}
 \end{frame}
 
